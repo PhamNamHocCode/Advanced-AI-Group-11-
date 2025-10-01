@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>23c5e36c65f5438da131d47c4ca3670d</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="3545c3c6" class="cell markdown">
+<h1 id="create-a-simple-reflex-based-lunar-lander-agent">Create a Simple
+Reflex-Based Lunar Lander Agent</h1>
+<p>In this example, we will use Gymnasium, an environment to train
+agents via reinforcement learning (RL). We will not use RL here but just
+use the environment with a custom simple reflex-based agent.</p>
+</div>
+<div id="c975e747" class="cell markdown">
+<h2 id="install-gymnasium">Install Gymnasium</h2>
+<p>The documentation for Gymnasium is available at <a
+href="https://gymnasium.farama.org/"
+class="uri">https://gymnasium.farama.org/</a></p>
+<p>Steps:</p>
+<ol>
+<li>Create a new folder and open it with VS Code and install all needed
+Python Extensions in VS Code.</li>
+<li>Create a new virtual environment (CTRL-Shift P Python Create
+Environment...)</li>
+<li>I needed to install swig and the Python C++ headers on WSL2 via the
+terminal
+<ul>
+<li><code>sudo apt install swig</code></li>
+<li><code>sudo apt-get install python3-dev</code></li>
+</ul></li>
+<li>Install gymnasium with the needed extras</li>
+</ol>
+</div>
+<div id="1d0bf8a9" class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># %pip install -q swig</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># %pip install -q gymnasium[box2d,classic_control]</span></span></code></pre></div>
+</div>
+<div id="4a6c9dae" class="cell markdown">
+<h2 id="the-lunar-lander-environment">The Lunar Lander Environment</h2>
+<p>The documentation of the environment is available at: <a
+href="https://gymnasium.farama.org/environments/box2d/lunar_lander/"
+class="uri">https://gymnasium.farama.org/environments/box2d/lunar_lander/</a></p>
+<ul>
+<li><p>Performance Measure: A reward of -100 or +100 points for crashing
+or landing safely respectively. We do not use intermediate rewards
+here.</p></li>
+<li><p>Environment: This environment is a classic rocket trajectory
+optimization problem. A ship needs to land safely. The space is
+<strong>continuous</strong> with x and y coordinates in the range [-2.5,
+2.5]. The landing pad is at coordinate (0,0).</p></li>
+<li><p>Actuators: According to Pontryagin’s maximum principle, it is
+optimal to fire the engine at full throttle or turn it off. This is the
+reason why this environment has discrete actions: engine on or off.
+There are four discrete actions available:</p>
+<ul>
+<li>0: do nothing</li>
+<li>1: fire left orientation engine</li>
+<li>2: fire main engine</li>
+<li>3: fire right orientation engine</li>
+</ul></li>
+<li><p>Sensors: Each observation is an 8-dimensional vector: the
+coordinates of the lander in x &amp; y, its linear velocities in x &amp;
+y, its angle, its angular velocity, and two booleans that represent
+whether each leg is in contact with the ground or not.</p></li>
+</ul>
+<p>Gymnasim environments are implemented as classes with a
+<code>make</code> method to create the environment, a <code>reset</code>
+method, and a <code>step</code> method to execute an action. To use it
+with an agent function that expects percetps and returns an action, we
+need write glue code that connects the environment with the agent
+function.</p>
+</div>
+<div id="588eccf9" class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> Box2D, gymnasium <span class="im">as</span> gym</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Box2D version:&quot;</span>, <span class="bu">getattr</span>(Box2D, <span class="st">&quot;__version__&quot;</span>, <span class="st">&quot;unknown&quot;</span>))</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>env <span class="op">=</span> gym.make(<span class="st">&quot;LunarLander-v3&quot;</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Env OK:&quot;</span>, env)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>env.close()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Box2D version: 2.3.10
+Env OK: &lt;TimeLimit&lt;OrderEnforcing&lt;PassiveEnvChecker&lt;LunarLander&lt;LunarLander-v3&gt;&gt;&gt;&gt;&gt;
+</code></pre>
+</div>
+</div>
+<div id="0366e4b5" class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> gymnasium <span class="im">as</span> gym</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> run_episode(agent_function, max_steps<span class="op">=</span><span class="dv">1000</span>):</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Run one episode in the LunarLander-v3 environment using the provided agent.&quot;&quot;&quot;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Initialize the environment</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    env <span class="op">=</span> gym.make(<span class="st">&quot;LunarLander-v3&quot;</span>, render_mode<span class="op">=</span><span class="st">&quot;human&quot;</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Reset the environment to generate the first observation (use seed=42 in reset to get reproducible results)</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    observation, info <span class="op">=</span> env.reset()</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># run one episode</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(max_steps):</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>        <span class="co"># call the agent function to select an action</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>        action <span class="op">=</span> agent_function(observation)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span> (<span class="ss">f&quot;Obs: </span><span class="sc">{</span>observation<span class="sc">}</span><span class="ss"> -&gt; Action: </span><span class="sc">{</span>action<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>        <span class="co"># step: execute an action in the environment</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>        observation, reward, terminated, truncated, info <span class="op">=</span> env.step(action)</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>        env.render()</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> terminated:</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;Final Reward: </span><span class="sc">{</span>reward<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    env.close()</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> reward</span></code></pre></div>
+</div>
+<div id="1458d0d0" class="cell markdown">
+<p>Note: <code>env.render()</code> shows the environment when the
+notebook is locally run (e.g., in VScode). On Colab, you cannot see the
+environment because the code is run on a headless server (i.e., a server
+without a display). There are some workarounds you can google.</p>
+</div>
+<div id="9a877b57" class="cell markdown">
+<h2 id="example-a-random-agent">Example: A Random Agent</h2>
+<p>We ranomly return one of the actions. The environment accepts the
+integers 0-3.</p>
+</div>
+<div id="8a006895" class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> random_agent_function(observation): </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;A random agent that selects actions uniformly at random. It ignores the observation.&quot;&quot;&quot;</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.random.choice([<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], p<span class="op">=</span>[<span class="fl">0.25</span>, <span class="fl">0.25</span>, <span class="fl">0.25</span>, <span class="fl">0.25</span>])</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>run_episode(random_agent_function)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Obs: [-0.00482998  1.4094263  -0.48923856 -0.0663937   0.00560353  0.11081991
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.00967779  1.4086032  -0.49025673 -0.03661508  0.01101771  0.1082945
+  0.          0.        ] -&gt; Action: 2
+Obs: [-1.4698791e-02  1.4086094e+00 -5.0678575e-01  2.3040459e-04
+  1.5647622e-02  9.2607103e-02  0.0000000e+00  0.0000000e+00] -&gt; Action: 1
+Obs: [-0.01980362  1.4080161  -0.5172912  -0.02645038  0.02238137  0.13468717
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.02482033  1.4068377  -0.50622666 -0.05245245  0.0268848   0.09007693
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.029918    1.4050448  -0.51638925 -0.07981733  0.03343063  0.13092895
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.03501596  1.4026525  -0.5164095  -0.10648865  0.03997406  0.13088074
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.04005489  1.3996673  -0.50899494 -0.1328189   0.04502246  0.10097699
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.04520493  1.3970287  -0.51970243 -0.11742488  0.0496784   0.09312711
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.05036726  1.3950155  -0.52106553 -0.08964156  0.05446824  0.09580543
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.0554534   1.3924204  -0.5114935  -0.11544713  0.05732044  0.05704916
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.06062527  1.3892103  -0.52225286 -0.1428759   0.06234127  0.10042562
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.06588201  1.3854008  -0.53289175 -0.16963205  0.06948723  0.14293203
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.07113914  1.3809917  -0.5329131  -0.19630535  0.07663162  0.14290099
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.07631902  1.3759849  -0.5232331  -0.22280082  0.08183179  0.10401304
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.081499    1.3703785  -0.5232465  -0.24947225  0.08703201  0.10401358
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.08676787  1.3641607  -0.5343846  -0.27679738  0.09447325  0.14883827
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.09194851  1.3573439  -0.5233184  -0.30330652  0.09969477  0.1044399
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.09712925  1.3499277  -0.5233313  -0.32997808  0.1049169   0.10445201
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.10231028  1.3419114  -0.52334505 -0.35665     0.11013781  0.10442742
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.1074914   1.3332958  -0.52335966 -0.38332194  0.11535789  0.10441115
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.11284924  1.3254402  -0.54069227 -0.34952936  0.12024584  0.09776765
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.11827049  1.3169634  -0.5486654  -0.37727532  0.12676519  0.13039881
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.12377958  1.3078644  -0.55969816 -0.40517196  0.13553023  0.17531662
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.12938423  1.2981377  -0.5717026  -0.4333557   0.14674845  0.22438419
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.13498707  1.2877915  -0.5715202  -0.46098128  0.15796602  0.22435121
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.14067249  1.2768307  -0.58184826 -0.4886197   0.17128365  0.26635247
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.14627543  1.265301   -0.57141894 -0.5137551   0.1824441   0.22320871
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.15187845  1.2531729  -0.57141614 -0.54043204  0.19360444  0.2232068
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.15762262  1.2412983  -0.5853682  -0.5292289   0.20463017  0.22051422
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.16332626  1.2294381  -0.58185446 -0.5287458   0.21622409  0.23187837
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.16909131  1.2169714  -0.5894732  -0.5560273   0.22935759  0.2626697
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.1750472   1.2044193  -0.60803646 -0.55985767  0.24199125  0.2526732
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.18100348  1.1912693  -0.60803175 -0.5865373   0.25462478  0.25267082
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.186901    1.1775435  -0.6005977  -0.61194676  0.26569748  0.221454
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.1927989   1.1632195  -0.6005937  -0.6386233   0.27677009  0.22145212
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.19861421  1.1483405  -0.5901036  -0.662935    0.28557822  0.17616253
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.20436569  1.1328824  -0.5820751  -0.6883996   0.29271567  0.14274912
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.21017738  1.1168036  -0.5896201  -0.71634144  0.30143863  0.17445897
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.2160668   1.1000983  -0.59934705 -0.74464935  0.31220543  0.21533594
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.22195654  1.0827943  -0.5993427  -0.77132535  0.32297215  0.21533425
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.2279026   1.0648597  -0.60642475 -0.7997795   0.33529794  0.24651615
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.23391071  1.0463026  -0.61414766 -0.8279246   0.3492674   0.27938923
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.23991942  1.0271479  -0.61413944 -0.8546066   0.36323667  0.2793855
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.24600944  1.0073442  -0.6243675  -0.8841366   0.37950453  0.3253571
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.25216168  0.9869167  -0.6320416  -0.9124654   0.3974313   0.35853574
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.2587903   0.9670644  -0.6789627  -0.88693076  0.41472816  0.34593683
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.265364    0.9466646  -0.6717581  -0.9109632   0.43030196  0.31147623
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.2718734   0.9256993  -0.66361004 -0.935733    0.44409332  0.27582735
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.278454    0.9040964  -0.67244184 -0.96477485  0.45986634  0.31546032
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.28509793  0.8818626  -0.6802265  -0.993497    0.4773797   0.3502671
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.29206285  0.8602009  -0.71248996 -0.96835953  0.495234    0.35708588
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.29907933  0.83789164 -0.7189498  -0.99788547  0.514739    0.39009878
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.30609745  0.8149866  -0.71892667 -1.02458     0.5342434   0.39008853
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.31305376  0.79153174 -0.710902   -1.0485729   0.55184907  0.35211346
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.32006922  0.7674238  -0.7182771  -1.0784706   0.5713511   0.3900413
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.3270865  0.7427201 -0.7182516 -1.105164   0.5908527  0.3900318
+  0.         0.       ] -&gt; Action: 3
+Obs: [-0.33405596  0.71747446 -0.7118379  -1.1288005   0.60864806  0.35590735
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.34102708  0.69163245 -0.7118154  -1.1554888   0.626443    0.35589927
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.3479998   0.66519374 -0.71179235 -1.1821772   0.6442376   0.3558915
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.35502952  0.6381047  -0.7187659  -1.2120154   0.66386646  0.3925773
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.36252946  0.61161935 -0.76599735 -1.1856289   0.6840684   0.404039
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.3700966   0.5844505  -0.7743905  -1.217312    0.7067686   0.45400435
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.3777277   0.55660385 -0.78223836 -1.2487668   0.73183584  0.50134575
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.3853034   0.52823    -0.774716   -1.2715396   0.75479686  0.45922008
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.39281613  0.49936432 -0.76603043 -1.2923453   0.77497137  0.40349048
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.40038317  0.46982834 -0.77266276 -1.3233377   0.7972357   0.44528762
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.40795344  0.43969697 -0.77261865 -1.3500335   0.8194994   0.4452724
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.4154648   0.40905806 -0.7646614  -1.3715575   0.8392539   0.39509088
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.4229787   0.37782276 -0.7646252  -1.3982462   0.8590079   0.39508027
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.43046117  0.34606028 -0.76006305 -1.4209447   0.87702847  0.36041147
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.43799075  0.31361905 -0.7658609  -1.45237     0.89717144  0.40285987
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.44552317  0.28058118 -0.7658214  -1.479058    0.9173139   0.40284863
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.45374084  0.24805778 -0.8345016  -1.4567941   0.9382566   0.41885513
+  0.          0.        ] -&gt; Action: 1
+Obs: [-0.4619934   0.21486326 -0.8386968  -1.4878006   0.9610157   0.455182
+  0.          0.        ] -&gt; Action: 2
+Obs: [-0.4706776   0.18125382 -0.8810539  -1.506063    0.9830981   0.44164786
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.47936544  0.14704801 -0.8810032  -1.5327526   1.0051798   0.44163293
+  0.          0.        ] -&gt; Action: 3
+Obs: [-0.48802075  0.11235166 -0.8760174  -1.5532945   1.0247715   0.3918342
+  0.          0.        ] -&gt; Action: 0
+Obs: [-0.49667898  0.07705794 -0.87597626 -1.5799782   1.0443627   0.3918241
+  0.          1.        ] -&gt; Action: 3
+Obs: [-0.50566465  0.04395276 -0.8998747  -1.4727311   1.0497062   0.11055072
+  0.          1.        ] -&gt; Action: 1
+Obs: [-0.51515704  0.01003598 -0.94289094 -1.5001369   1.0372478  -0.24916546
+  0.          1.        ] -&gt; Action: 2
+Final Reward: -100
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code>-100</code></pre>
+</div>
+</div>
+<div id="663236fb" class="cell markdown">
+<h2 id="a-simple-reflex-based-agent">A Simple Reflex-Based Agent</h2>
+<p>To make the code easier to read, we use enumerations for actions
+(integers) and observations (index in the observation vector).</p>
+</div>
+<div id="add54072" class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> enum <span class="im">import</span> Enum</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Act(Enum):</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    LEFT <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    RIGHT <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    MAIN <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    NO_OP <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Obs(Enum):</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>    X <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>    Y <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>    VX <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    VY <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    ANGLE <span class="op">=</span> <span class="dv">4</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    ANGULAR_VELOCITY <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    LEFT_LEG_CONTACT <span class="op">=</span> <span class="dv">6</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    RIGHT_LEG_CONTACT <span class="op">=</span> <span class="dv">7</span></span></code></pre></div>
+</div>
+<div id="8b8f06b1" class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rocket_agent_function(observation):</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;A simple agent function.&quot;&quot;&quot;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># run the main thruster, if the lander is falling too fast</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> observation[Obs.VY.value] <span class="op">&lt;</span> <span class="op">-</span><span class="fl">.3</span>:  </span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> Act.MAIN.value</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> Act.NO_OP.value </span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>run_episode(rocket_agent_function)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Obs: [ 0.00373344  1.3983481   0.37814385 -0.55876356 -0.00431936 -0.08565535
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.00759277  1.3862478   0.38961747 -0.53780895 -0.00796098 -0.07283899
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.01158972  1.3740848   0.4027179  -0.54059494 -0.01095389 -0.05986363
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.01556101  1.3625402   0.40031272 -0.51311356 -0.01411284 -0.06318481
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.01949606  1.3516893   0.39693218 -0.4823037  -0.0175022  -0.06779335
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.02343178  1.3415009   0.3970644  -0.45285985 -0.02095832 -0.06912883
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.02747545  1.3320471   0.4074335  -0.42021286 -0.0239877  -0.06059311
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.03144789  1.3229153   0.40071553 -0.40592057 -0.02742701 -0.06879248
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.03542747  1.3146381   0.40152678 -0.36794016 -0.0309576  -0.07061817
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.03945589  1.3070967   0.40630394 -0.33525357 -0.03438699 -0.06859399
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.04351864  1.3004307   0.40973535 -0.29635164 -0.03781348 -0.06853621
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.04758148  1.2931645   0.40974492 -0.3230277  -0.04123941 -0.06852435
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.05152435  1.2858336   0.39838904 -0.32593796 -0.04530116 -0.08124233
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.05534668  1.2790931   0.38707477 -0.2997251  -0.05009985 -0.09598224
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.0591691   1.2717528   0.38708803 -0.3264033  -0.05489741 -0.09595972
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.06306019  1.2647681   0.3937884  -0.31060898 -0.05953707 -0.09280168
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.06695385  1.2584512   0.3942719  -0.28095084 -0.06440032 -0.09727368
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.07084761  1.2515345   0.39428526 -0.3076279  -0.06926256 -0.09725336
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.0747631   1.2453734   0.39663994 -0.27407154 -0.07431605 -0.10107873
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.0786787   1.2386124   0.396653   -0.3007536  -0.07936855 -0.10105922
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.0827816   1.2324301   0.4148039  -0.2750133  -0.08383983 -0.08943371
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.08688469  1.2256479   0.41481477 -0.30169356 -0.08831093 -0.08942987
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.09102535  1.2195903   0.41875857 -0.26950943 -0.09296935 -0.09317674
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.09516621  1.2129328   0.41877002 -0.296191   -0.09762686 -0.09315848
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.09930725  1.2056756   0.41878328 -0.32285824 -0.10228381 -0.09314714
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.1035039   1.1987231   0.42438704 -0.30932865 -0.10696892 -0.09370212
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.10761948  1.1923486   0.41704577 -0.28371432 -0.11241399 -0.1089015
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.11173506  1.1853746   0.4170454  -0.31038347 -0.11785904 -0.10890117
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.1159483   1.1787348   0.42669764 -0.29553548 -0.1231938  -0.10669519
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.12016163  1.1714953   0.4266972  -0.32220453 -0.12852854 -0.10669508
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.12434931  1.1650734   0.42480555 -0.28595486 -0.13454068 -0.12024306
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.12853698  1.1580517   0.42480493 -0.31262454 -0.14055282 -0.12024267
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.13262872  1.1509852   0.41587514 -0.31471148 -0.14724442 -0.1338322
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.1367877   1.1442978   0.42273825 -0.29790574 -0.15407033 -0.1365185
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.14094678  1.1370113   0.42273736 -0.3245763  -0.16089624 -0.13651806
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.1452856   1.1302658   0.4404428  -0.300519   -0.16746496 -0.13137385
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.14986324  1.1237214   0.46364313 -0.29154104 -0.1733555  -0.11781134
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.15444088  1.1165774   0.46364242 -0.3182106  -0.17924605 -0.11781111
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.15918608  1.1103022   0.48043656 -0.27962163 -0.18518077 -0.11869457
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.16393128  1.1034276   0.48043576 -0.30629122 -0.19111548 -0.11869426
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.16894397  1.0970756   0.50661063 -0.28301245 -0.19649312 -0.1075526
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.17395668  1.0901239   0.50661    -0.3096815  -0.20187074 -0.10755241
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.17903729  1.0832827   0.5135283  -0.30480626 -0.20737945 -0.11017399
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.18427114  1.076402    0.5285056  -0.30653498 -0.21255033 -0.10341772
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.18973151  1.0696268   0.5505955  -0.30178785 -0.2171553  -0.09209941
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.19532156  1.0627737   0.5633262  -0.30521148 -0.2215212  -0.08731826
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.20097227  1.0567188   0.57004976 -0.26986578 -0.22655995 -0.1007751
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.20662308  1.0500642   0.570049   -0.2965345  -0.2315987  -0.10077493
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.21227388  1.04281     0.5700483  -0.3232032  -0.23663744 -0.10077477
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.21801205  1.0358934   0.57905513 -0.3082509  -0.24196108 -0.10647237
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.22398119  1.0289423   0.60154104 -0.30971187 -0.24666455 -0.09406941
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.23010197  1.022684    0.61698    -0.27898425 -0.25166097 -0.09992811
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.23622274  1.0158257   0.61697924 -0.30565295 -0.25665736 -0.09992795
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.24269524  1.0094235   0.6514055  -0.28528413 -0.26090637 -0.08497998
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.24916773  1.0024214   0.6514049  -0.3119523  -0.26515538 -0.08497998
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.25587758  0.99586415  0.67492735 -0.29214722 -0.26918867 -0.0806659
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.26258746  0.9887073   0.6749268  -0.3188152  -0.27322197 -0.08066579
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.2693329   0.98196405  0.67914253 -0.30056402 -0.27794003 -0.09436157
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.2761466   0.9759589   0.68677217 -0.26793754 -0.28348565 -0.11091217
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.28296033  0.9693539   0.6867711  -0.29460672 -0.28903124 -0.11091192
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.28977424  0.96214944  0.68676996 -0.32127583 -0.29457682 -0.11091167
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.29684296  0.955822    0.7124302  -0.28235847 -0.30031613 -0.11478591
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.30391178  0.9488949   0.712429   -0.3090278  -0.30605543 -0.11478569
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.31122655  0.94256604  0.737038   -0.28246555 -0.31182283 -0.11534727
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.31854135  0.93563765  0.7370368  -0.30913496 -0.31759015 -0.11534698
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.32613173  0.9285582   0.7638355  -0.31570435 -0.32257855 -0.0997681
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.33412427  0.9221273   0.803517   -0.28677595 -0.32702285 -0.08888562
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.34211683  0.91509646  0.8035162  -0.3134442  -0.3314671  -0.08888552
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.35023785  0.908311    0.81663024 -0.30262378 -0.33619723 -0.09460245
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.3584134   0.90158975  0.8224884  -0.29988208 -0.34136486 -0.10335338
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.36658898  0.8942688   0.82248735 -0.3265509  -0.3465325  -0.10335276
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.37498045  0.88774294  0.8445673  -0.29135558 -0.352221   -0.11377046
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.383372    0.88061744  0.84456575 -0.31802478 -0.35790953 -0.11377019
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.39214182  0.87364143  0.88158166 -0.31120032 -0.36276913 -0.09719135
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.4013567   0.8672061   0.9254433  -0.28702223 -0.3669514  -0.08364533
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.41057166  0.860171    0.9254424  -0.31369027 -0.3711337  -0.08364536
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.42015392  0.85384125  0.96204805 -0.28232178 -0.37519187 -0.08116357
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.42973614  0.8469117   0.9620472  -0.30898973 -0.37925002 -0.08116279
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.43949288  0.8406993   0.98020875 -0.2773131  -0.38406113 -0.09622207
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.44924983  0.83388734  0.9802076  -0.30398157 -0.3888722  -0.09622154
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.45922574  0.8275642   1.0024029  -0.2823591  -0.3940188  -0.10293128
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.46920156  0.8206412   1.0024016  -0.3090278  -0.3991654  -0.1029311
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.47947234  0.8142925   1.0320054  -0.283563   -0.4044625  -0.10594161
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.48974305  0.8073442   1.032004   -0.3102318  -0.40975955 -0.10594138
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.50014764  0.8009089   1.0461177  -0.2876601  -0.41585577 -0.12192444
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.5105523   0.7938742   1.0461158  -0.3143296  -0.42195198 -0.12192414
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.5210953   0.7868241   1.0600696  -0.31507894 -0.42820275 -0.12501514
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.53198546  0.78034216  1.094798   -0.28986284 -0.43448794 -0.12570363
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.54287577  0.7732607   1.094796   -0.31653255 -0.4407731  -0.1257033
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.55391276  0.7665137   1.1100144  -0.30187172 -0.4476733  -0.13800435
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.5651916   0.75992316  1.1341871  -0.29494154 -0.4545742  -0.13801873
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.57647085  0.7527334   1.1341846  -0.32161182 -0.46147507 -0.13801828
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.5880866   0.7453796   1.1671021  -0.32867843 -0.46758062 -0.12211059
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.6001314   0.7385609   1.2098176  -0.3048634  -0.4734913  -0.11821403
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.6125597   0.73192036  1.2477021  -0.2968178  -0.47891754 -0.10852462
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.62498796  0.7246801   1.2477003  -0.3234867  -0.48434377 -0.10852438
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.63779354  0.71790475  1.2853973  -0.3028388  -0.48975408 -0.10820647
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.6508236   0.71150696  1.3082969  -0.28623816 -0.49566478 -0.11821429
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.6638538   0.70450944  1.3082948  -0.31290743 -0.5015754  -0.11821405
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.6773945   0.6977426   1.358569   -0.30240577 -0.50664717 -0.10143528
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.69143087  0.691209    1.4074553  -0.291805   -0.5109604  -0.08626501
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.7054674   0.6840756   1.4074543  -0.31847313 -0.5152736  -0.08626507
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.7197319   0.6770279   1.4303682  -0.31471473 -0.5197102  -0.08873276
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.73424566  0.6702227   1.4555361  -0.3040453  -0.52443594 -0.09451582
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.7492155   0.66361374  1.5005829  -0.29513675 -0.5285656  -0.08259346
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.7641853   0.6564049   1.5005817  -0.32180464 -0.53269523 -0.08259337
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.7795296   0.64965194  1.5381622  -0.30161205 -0.5369856  -0.085807
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.7954119   0.64348     1.5917168  -0.27570212 -0.5409998  -0.08028489
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.8112942   0.6367081   1.5917156  -0.30236995 -0.5450141  -0.0802848
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.82754457  0.6306011   1.6290153  -0.27303094 -0.54959327 -0.09158536
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.8437952   0.6238943   1.629014   -0.29969913 -0.5541725  -0.0915852
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.860046    0.6165878   1.6290127  -0.3263673  -0.5587517  -0.09158504
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.8767578   0.6093348   1.6744837  -0.3237311  -0.5625902  -0.07676944
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.8937786   0.60264015  1.7059463  -0.29918203 -0.5671251  -0.09069641
+  0.          0.        ] -&gt; Action: 0
+Obs: [ 0.9107994   0.5953456   1.7059448  -0.32585016 -0.57166    -0.09069733
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.9281567   0.5878365   1.7390206  -0.3351563  -0.5755284  -0.07736783
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.94584733  0.58035064  1.7721367  -0.3340401  -0.5791489  -0.07241014
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.96392614  0.57288307  1.8105595  -0.333061   -0.5823097  -0.06321825
+  0.          0.        ] -&gt; Action: 2
+Obs: [ 0.9822569   0.56550056  1.8359092  -0.32935953 -0.58565843 -0.06697459
+  0.          0.        ] -&gt; Action: 2
+Final Reward: -100
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="35">
+<pre><code>-100</code></pre>
+</div>
+</div>
+<div id="379dc08a" class="cell markdown">
+<h2 id="evaluating-the-agent">Evaluating the Agent</h2>
+<p>Run the agent on 100 problems and report the average reward.</p>
+</div>
+<div id="b4d789df" class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> run_episode_test(agent_function):</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Run one episode in the LunarLander-v3 environment using the provided agent.&quot;&quot;&quot;</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Initialise the environment</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    env <span class="op">=</span> gym.make(<span class="st">&quot;LunarLander-v3&quot;</span>, render_mode<span class="op">=</span><span class="va">None</span>)</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Reset the environment to generate the first observation</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    observation, info <span class="op">=</span> env.reset()</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># run one episode (max. 1000 steps)</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1000</span>):</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>        <span class="co"># call the agent to select an action</span></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>        action <span class="op">=</span> agent_function(observation)</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>        <span class="co"># step (transition) through the environment with the action</span></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>        observation, reward, terminated, truncated, info <span class="op">=</span> env.step(action)</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>      </span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> terminated:</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>    env.close()</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> reward</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> run_episodes(agent_function, n<span class="op">=</span><span class="dv">1000</span>):</span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Run multiple episodes with the given agent and return the rewards for each episode.&quot;&quot;&quot;</span></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> [run_episode_test(agent_function) <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(n)]</span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>rewards <span class="op">=</span> run_episodes(rocket_agent_function)</span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(rewards)</span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Average reward: </span><span class="sc">{</span>np<span class="sc">.</span>average(rewards)<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Success rate: </span><span class="sc">{</span>np<span class="sc">.</span><span class="bu">sum</span>(np.array(rewards) <span class="op">==</span> <span class="dv">100</span>)<span class="sc">}</span><span class="ss">/</span><span class="sc">{</span><span class="bu">len</span>(rewards)<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100]
+Average reward: -97.8
+Success rate: 11/1000
+</code></pre>
+</div>
+</div>
+<div id="2699bae2" class="cell markdown">
+<p>This is not great!</p>
+</div>
+<div id="3d3af054" class="cell markdown">
+<h2 id="implement-a-better-reflex-based-agent">Implement A Better
+Reflex-Based Agent</h2>
+<p>Build a better that uses its right and left thrusters to land the
+craft (more) safely. Test your agent function using 100 problems.</p>
+</div>
+<div id="7c0c8711" class="cell markdown">
+<pre><code>- 0: do nothing
+- 1: fire left orientation engine
+- 2: fire main engine
+- 3: fire right orientation engine</code></pre>
+<h3 id="observation-space">Observation space</h3>
+<ul>
+<li><p>X: vị trí ngang (trái/phải so với pad): X &gt; 0_tàu đang lệch
+sang phải, X &lt; 0_tàu đang lệch sang trái [-1.5, 1.5]</p></li>
+<li><p>Y: vị trí dọc (cao/thấp): Y = 0 là chạm đất</p></li>
+<li><p>VX: vận tốc ngang: VX &gt; 0_trôi sang phải, VX &lt; 0_trôi sang
+trái</p></li>
+<li><p>VY: vận tốc dọc: VY &gt; 0_đang bay lên, VY &lt; 0_đang rơi
+xuống</p></li>
+<li><p>ANGLE: góc nghiêng: ANGLE = 0_tàu thẳng đắng, ANGLE &gt;
+0_nghiêng sang phải, ANGLE &lt; 0_nghiêng sang trái</p></li>
+<li><p>ANGULAR_VELOCITY: tốc độ xoay: &gt;0_đang xoay chiều kim đồng hồ,
+&lt;0_đang xoay ngược</p></li>
+<li><p>LEFT_LEG_CONTACT: chân trái chạm đất? (0 hoặc 1).</p></li>
+<li><p>RIGHT_LEG_CONTACT: chân phải chạm đất? (0 hoặc 1).</p></li>
+<li><p>tol: ngưỡng chấp nhận được</p></li>
+</ul>
+</div>
+<div id="6b6f4000" class="cell code">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Code goes here</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> run_episode_test(agent_function, seed<span class="op">=</span><span class="va">None</span>):</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    <span class="im">import</span> gymnasium <span class="im">as</span> gym</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    env <span class="op">=</span> gym.make(<span class="st">&quot;LunarLander-v3&quot;</span>, render_mode<span class="op">=</span><span class="va">None</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    obs, info <span class="op">=</span> env.reset(seed<span class="op">=</span>seed)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1000</span>):</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>        action <span class="op">=</span> agent_function(obs)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>        obs, reward, terminated, truncated, info <span class="op">=</span> env.step(action)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> terminated:</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>    env.close()</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> reward</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> run_episodes(agent_function, n<span class="op">=</span><span class="dv">1000</span>, seed0<span class="op">=</span><span class="dv">0</span>):</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> [run_episode_test(agent_function, seed<span class="op">=</span>seed0<span class="op">+</span>i) <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(n)]</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> enum <span class="im">import</span> Enum</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Act(Enum):</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>    LEFT <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>    RIGHT <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>    MAIN <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>    NO_OP <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> better_agent(obs):</span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a>    X, Y, VX, VY, ANG, AV, Lc, Rc <span class="op">=</span> obs</span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>    Lc, Rc <span class="op">=</span> <span class="bu">bool</span>(Lc), <span class="bu">bool</span>(Rc)</span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a>    near_ground <span class="op">=</span> (Y <span class="op">&lt;</span> <span class="fl">0.6</span>)</span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a>    vy_on  <span class="op">=</span> <span class="op">-</span><span class="fl">0.30</span> <span class="cf">if</span> <span class="kw">not</span> near_ground <span class="cf">else</span> <span class="op">-</span><span class="fl">0.20</span></span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> VY <span class="op">&lt;</span> vy_on:</span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> Act.MAIN.value</span>
+<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a>    ANG_tol <span class="op">=</span> <span class="fl">0.09</span> <span class="cf">if</span> near_ground <span class="cf">else</span> <span class="fl">0.10</span></span>
+<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a>    AV_hi   <span class="op">=</span> <span class="fl">0.18</span> <span class="cf">if</span> near_ground <span class="cf">else</span> <span class="fl">0.20</span></span>
+<span id="cb15-37"><a href="#cb15-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> AV <span class="op">&gt;</span> AV_hi <span class="kw">or</span> ANG <span class="op">&gt;</span> ANG_tol:</span>
+<span id="cb15-38"><a href="#cb15-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> Act.RIGHT.value </span>
+<span id="cb15-39"><a href="#cb15-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> AV <span class="op">&lt;</span> <span class="op">-</span>AV_hi <span class="kw">or</span> ANG <span class="op">&lt;</span> <span class="op">-</span>ANG_tol:</span>
+<span id="cb15-40"><a href="#cb15-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> Act.LEFT.value</span>
+<span id="cb15-41"><a href="#cb15-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-42"><a href="#cb15-42" aria-hidden="true" tabindex="-1"></a>    vx_hi <span class="op">=</span> <span class="fl">0.35</span> <span class="cf">if</span> <span class="kw">not</span> near_ground <span class="cf">else</span> <span class="fl">0.16</span></span>
+<span id="cb15-43"><a href="#cb15-43" aria-hidden="true" tabindex="-1"></a>    x_tol <span class="op">=</span> <span class="fl">0.40</span> <span class="cf">if</span> <span class="kw">not</span> near_ground <span class="cf">else</span> <span class="fl">0.22</span></span>
+<span id="cb15-44"><a href="#cb15-44" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> VX <span class="op">&gt;</span> <span class="op">+</span>vx_hi:</span>
+<span id="cb15-45"><a href="#cb15-45" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> Act.LEFT.value</span>
+<span id="cb15-46"><a href="#cb15-46" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> VX <span class="op">&lt;</span> <span class="op">-</span>vx_hi:</span>
+<span id="cb15-47"><a href="#cb15-47" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> Act.RIGHT.value</span>
+<span id="cb15-48"><a href="#cb15-48" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> near_ground:</span>
+<span id="cb15-49"><a href="#cb15-49" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> X <span class="op">&gt;</span> <span class="op">+</span>x_tol:</span>
+<span id="cb15-50"><a href="#cb15-50" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> Act.LEFT.value</span>
+<span id="cb15-51"><a href="#cb15-51" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> X <span class="op">&lt;</span> <span class="op">-</span>x_tol:</span>
+<span id="cb15-52"><a href="#cb15-52" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> Act.RIGHT.value</span>
+<span id="cb15-53"><a href="#cb15-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-54"><a href="#cb15-54" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> Y <span class="op">&lt;</span> <span class="fl">0.25</span>:</span>
+<span id="cb15-55"><a href="#cb15-55" aria-hidden="true" tabindex="-1"></a>        <span class="co"># giữ thăng bằng chặt</span></span>
+<span id="cb15-56"><a href="#cb15-56" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">abs</span>(ANG) <span class="op">&gt;</span> <span class="fl">0.06</span> <span class="kw">or</span> <span class="bu">abs</span>(AV) <span class="op">&gt;</span> <span class="fl">0.12</span>:</span>
+<span id="cb15-57"><a href="#cb15-57" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> Act.RIGHT.value <span class="cf">if</span> (ANG <span class="op">&gt;</span> <span class="dv">0</span> <span class="kw">or</span> AV <span class="op">&gt;</span> <span class="fl">0.12</span>) <span class="cf">else</span> Act.LEFT.value</span>
+<span id="cb15-58"><a href="#cb15-58" aria-hidden="true" tabindex="-1"></a>        <span class="co"># flare dọc</span></span>
+<span id="cb15-59"><a href="#cb15-59" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> VY <span class="op">&lt;</span> <span class="op">-</span><span class="fl">0.16</span>:</span>
+<span id="cb15-60"><a href="#cb15-60" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> Act.MAIN.value</span>
+<span id="cb15-61"><a href="#cb15-61" aria-hidden="true" tabindex="-1"></a>        <span class="co"># nếu đã đủ chậm theo trục dọc, có thể thả</span></span>
+<span id="cb15-62"><a href="#cb15-62" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> VY <span class="op">&gt;</span> <span class="op">-</span><span class="fl">0.04</span>:</span>
+<span id="cb15-63"><a href="#cb15-63" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> Act.NO_OP.value</span>
+<span id="cb15-64"><a href="#cb15-64" aria-hidden="true" tabindex="-1"></a>        <span class="co"># hãm trôi ngang nếu còn lớn</span></span>
+<span id="cb15-65"><a href="#cb15-65" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">abs</span>(VX) <span class="op">&gt;</span> <span class="fl">0.12</span>:</span>
+<span id="cb15-66"><a href="#cb15-66" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> Act.LEFT.value <span class="cf">if</span> VX <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">else</span> Act.RIGHT.value</span>
+<span id="cb15-67"><a href="#cb15-67" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> Act.NO_OP.value</span>
+<span id="cb15-68"><a href="#cb15-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-69"><a href="#cb15-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-70"><a href="#cb15-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-71"><a href="#cb15-71" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> Act.NO_OP.value</span>
+<span id="cb15-72"><a href="#cb15-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-73"><a href="#cb15-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-74"><a href="#cb15-74" aria-hidden="true" tabindex="-1"></a>rewards <span class="op">=</span> run_episodes(better_agent, seed0<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb15-75"><a href="#cb15-75" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(rewards)</span>
+<span id="cb15-76"><a href="#cb15-76" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Avg=</span><span class="sc">{</span>np<span class="sc">.</span>mean(rewards)<span class="sc">:.1f}</span><span class="ss"> | Success=</span><span class="sc">{</span>np<span class="sc">.</span><span class="bu">sum</span>(np.array(rewards)<span class="op">==</span><span class="dv">100</span>)<span class="sc">}</span><span class="ss">/</span><span class="sc">{</span><span class="bu">len</span>(rewards)<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[-100, 100, np.float64(-0.35058859598861036), -100, 100, -100, -100, 100, -100, -100, 100, np.float64(-0.04603527163086937), 100, -100, 100, 100, 100, -100, -100, -100, 100, 100, 100, 100, -100, -100, 100, -100, 100, -100, -100, -100, 100, -100, 100, -100, 100, 100, 100, 100, 100, -100, 100, 100, -100, 100, 100, 100, 100, -100, 100, 100, 100, -100, 100, -100, -100, -100, -100, 100, 100, 100, 100, -100, 100, 100, 100, -100, 100, 100, np.float64(-0.4159670510571931), -100, 100, 100, 100, -100, 100, 100, -100, -100, -100, -100, -100, np.float64(-0.010244567484703565), 100, -100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, -100, 100, 100, 100, -100, 100, -100, 100, 100, -100, -100, -100, -100, 100, -100, 100, -100, 100, 100, 100, -100, -100, -100, 100, 100, 100, 100, 100, 100, 100, -100, 100, -100, 100, -100, 100, -100, 100, -100, -100, 100, 100, 100, 100, 100, 100, -100, -100, 100, -100, -100, -100, 100, -100, 100, 100, 100, -100, 100, -100, 100, 100, -100, -100, 100, -100, 100, 100, -100, -100, -100, 100, -100, 100, 100, 100, -100, 100, -100, 100, -100, 100, 100, 100, 100, 100, -100, -100, 100, -100, np.float64(0.043430120897384655), 100, np.float64(0.5379737154864952), -100, -100, 100, -100, 100, -100, -100, 100, -100, -100, 100, 100, -100, 100, 100, 100, -100, 100, 100, 100, 100, -100, -100, 100, 100, 100, 100, 100, 100, -100, 100, 100, 100, 100, 100, -100, 100, np.float64(-0.17741144443330256), -100, 100, -100, 100, 100, 100, 100, 100, -100, 100, -100, -100, -100, -100, 100, -100, -100, 100, 100, -100, 100, 100, 100, -100, 100, -100, 100, 100, 100, 100, -100, 100, 100, 100, 100, 100, 100, 100, -100, -100, 100, -100, 100, -100, 100, np.float64(0.42278198287940083), 100, 100, 100, 100, 100, 100, 100, 100, 100, -100, 100, -100, -100, np.float64(-0.06489997448342308), 100, -100, 100, -100, -100, -100, 100, -100, 100, 100, 100, -100, -100, -100, -100, 100, 100, -100, 100, -100, 100, -100, -100, -100, 100, 100, 100, 100, -100, 100, -100, 100, -100, 100, 100, 100, 100, 100, np.float64(0.9791535245135432), 100, 100, 100, 100, 100, 100, 100, 100, 100, -100, 100, 100, 100, 100, -100, 100, 100, 100, 100, 100, -100, -100, -100, 100, 100, 100, -100, -100, 100, 100, 100, 100, 100, -100, 100, -100, 100, 100, 100, -100, 100, -100, -100, 100, 100, 100, 100, 100, 100, 100, -100, -100, -100, 100, np.float64(-0.5322032052355172), np.float64(0.13043743832538837), 100, 100, 100, np.float64(0.33989163069014805), 100, 100, -100, 100, 100, 100, 100, -100, -100, 100, 100, 100, 100, 100, -100, 100, 100, 100, 100, 100, -100, 100, 100, 100, 100, -100, 100, -100, 100, 100, -100, -100, 100, 100, -100, 100, 100, 100, 100, 100, 100, -100, 100, 100, -100, 100, -100, np.float64(-0.15337031678173815), -100, -100, -100, 100, 100, -100, 100, 100, np.float64(-0.7206168283773582), -100, -100, 100, 100, 100, 100, -100, 100, 100, -100, -100, 100, 100, 100, 100, 100, 100, -100, 100, 100, 100, 100, np.float64(0.19980658820475242), 100, 100, -100, 100, 100, 100, 100, 100, -100, -100, 100, 100, 100, 100, 100, 100, np.float64(-0.5730675540923957), 100, -100, 100, 100, 100, 100, 100, 100, -100, 100, 100, 100, 100, 100, np.float64(0.5932807962263251), -100, 100, 100, -100, 100, -100, 100, 100, 100, 100, -100, -100, 100, 100, 100, 100, 100, -100, -100, 100, 100, -100, 100, 100, 100, -100, 100, -100, -100, 100, np.float64(0.8193803303785867), -100, -100, -100, 100, np.float64(0.18659624397121036), -100, 100, 100, -100, 100, -100, -100, 100, 100, 100, np.float64(0.11201680252550375), 100, -100, -100, -100, 100, -100, 100, 100, 100, 100, 100, -100, -100, 100, 100, -100, 100, -100, 100, 100, 100, 100, 100, -100, 100, 100, -100, -100, -100, 100, -100, 100, np.float64(0.13717414420152466), -100, -100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, -100, -100, 100, 100, 100, -100, 100, 100, np.float64(-0.3971893865534202), 100, -100, 100, -100, 100, 100, -100, 100, 100, 100, 100, 100, 100, -100, 100, 100, 100, np.float64(-0.29216148079777216), -100, 100, 100, 100, -100, 100, 100, -100, 100, -100, np.float64(0.8061532274110175), 100, 100, 100, 100, 100, -100, -100, np.float64(0.32502660839856046), -100, -100, 100, -100, 100, 100, -100, -100, 100, 100, 100, 100, 100, 100, 100, -100, 100, 100, 100, 100, 100, -100, 100, -100, 100, -100, -100, -100, -100, 100, 100, 100, -100, np.float64(0.21708746711776541), -100, 100, -100, 100, 100, 100, 100, -100, 100, 100, 100, 100, 100, -100, 100, 100, -100, 100, -100, 100, -100, 100, -100, 100, np.float64(-0.1925485922905625), 100, -100, -100, 100, -100, 100, np.float64(-1.13547111009285), -100, -100, 100, 100, -100, 100, 100, 100, -100, 100, 100, 100, 100, 100, -100, -100, 100, -100, 100, 100, -100, 100, -100, 100, -100, -100, 100, 100, 100, 100, -100, 100, 100, -100, -100, 100, 100, -100, -100, -100, -100, 100, 100, 100, -100, -100, 100, 100, np.float64(0.012177255611914434), -100, 100, -100, 100, np.float64(0.6709093144017697), 100, 100, -100, np.float64(1.1115159811880144), -100, 100, 100, 100, 100, -100, 100, 100, 100, 100, np.float64(-0.3180098653600101), 100, -100, -100, -100, 100, 100, np.float64(-0.5285658980464365), 100, -100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, np.float64(1.0129180077562705), 100, 100, np.float64(-0.33928353558981317), -100, 100, 100, -100, 100, -100, 100, np.float64(-0.2668550211715359), 100, -100, 100, 100, -100, 100, 100, 100, 100, np.float64(-0.34146855115471797), 100, -100, -100, 100, 100, 100, -100, 100, -100, -100, -100, 100, -100, 100, -100, -100, -100, 100, -100, -100, 100, 100, -100, 100, np.float64(-0.6785725838773888), 100, -100, 100, -100, 100, -100, -100, 100, 100, 100, -100, 100, np.float64(-0.06554797402179588), 100, -100, 100, np.float64(0.12304890638664404), 100, -100, 100, -100, -100, 100, -100, -100, 100, 100, 100, -100, 100, 100, -100, -100, -100, -100, 100, 100, -100, 100, -100, -100, np.float64(-0.04105148224465324), 100, 100, 100, 100, -100, 100, 100, 100, -100, 100, 100, 100, 100, 100, 100, 100, -100, -100, -100, -100, 100, -100, 100, 100, 100, -100, 100, 100, 100, np.float64(-0.049307922274450106), 100, 100, -100, 100, 100, 100, 100, 100, np.float64(-0.23119990676192145), -100, 100, 100, -100, -100, 100, -100, 100, -100, 100, 100, 100, np.float64(0.9742958295329498), 100, -100, 100, -100, 100, 100, np.float64(-0.8173168048284569), -100, -100, np.float64(0.2130431844505705), -100, np.float64(0.6267395715860726), -100, np.float64(0.00043837643531333126), -100, -100, 100, 100, 100, 100, -100, 100, 100, 100, -100, 100, 100, -100, 100, 100, 100, 100, -100, -100, 100, np.float64(0.04135125845128698), -100, 100, 100, 100, -100, -100, 100, 100, 100, 100, 100, 100, 100, 100, np.float64(-0.07970403415865121), 100, 100, -100, -100, 100, -100, np.float64(-0.30083010213499395), 100, -100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+Avg=27.2 | Success=610/1000
+</code></pre>
+</div>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"0357a45f23a943f08700f7f9af191ee6","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
