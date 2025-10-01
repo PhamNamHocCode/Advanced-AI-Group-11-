@@ -1,13 +1,9 @@
-<!-- #region -->
-# Chapter 2: Intelligent Agents
+# Project Setup
 
-## Contents
+## Dependencies
 
-* Assignment: [Reflex-based Agents for the Vacuum-cleaner World](https://colab.research.google.com/github/mhahsler/CS7320-AI/blob/master/Agents/robot_vacuum.ipynb)
-* Example: [Lunar Lander Reflex-based Agent](https://colab.research.google.com/github/mhahsler/CS7320-AI/blob/master/Agents/lunar_lander.ipynb)
+Trước khi chạy code, cần chuẩn bị môi trường Python:
 
-## License
-All code and documents in this repository are provided under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License](https://creativecommons.org/licenses/by-sa/4.0/)
-
-![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
-<!-- #endregion -->
+```bash
+python -m pip install -U pip setuptools wheel
+pip install "box2d==2.3.10" "gymnasium==1.2.1" "pygame==2.6.1"
