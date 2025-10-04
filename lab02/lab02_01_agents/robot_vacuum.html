@@ -1,0 +1,1957 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ff6c601a67c444e882dc5b19d5fba7be</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="intelligent-agents-reflex-based-agents-for-the-vacuum-cleaner-world"
+class="cell markdown">
+<h1>Intelligent Agents: Reflex-Based Agents for the Vacuum-cleaner
+World</h1>
+<p>Student Name: [Add your name]</p>
+<p>I have used the following AI tools: [list tools]</p>
+<p>I understand that my submission needs to be my own work: [your
+initials]</p>
+</section>
+<div class="cell markdown">
+<h2 id="learning-outcomes">Learning Outcomes</h2>
+<ul>
+<li>Design and build a simulation environment that models sensor inputs,
+actuator effects, and performance measurement.</li>
+<li>Apply core AI concepts by implementing the agent function for a
+simple and model-based reflex agents that respond to environmental
+percepts.</li>
+<li>Practice how the environment and the agent function interact.</li>
+<li>Analyze agent performance through controlled experiments across
+different environment configurations.</li>
+<li>Graduate Students: Develop strategies for handling uncertainty and
+imperfect information in autonomous agent systems.</li>
+</ul>
+<h2 id="instructions">Instructions</h2>
+<p>Total Points: Undergrads 98 + 5 bonus / Graduate students 110</p>
+<p>Complete this notebook. Use the provided notebook cells and insert
+additional code and markdown cells as needed. Submit the completely
+rendered notebook as a HTML file.</p>
+<h3 id="ai-use">AI Use</h3>
+<p>Here are some guidelines that will make it easier for you:</p>
+<ul>
+<li><strong>Don't:</strong> Rely on AI auto completion. You will waste a
+lot of time trying to figure out how the suggested code relates to what
+we do in class. Turn off AI code completion (e.g., Copilot) in your
+IDE.</li>
+<li><strong>Don't:</strong> Do not submit code/text that you do not
+understand or have not checked to make sure that it is complete and
+correct.</li>
+<li><strong>Do:</strong> Use AI for debugging and letting it explain
+code and concepts from class.</li>
+</ul>
+<h3 id="using-visual-studio-code">Using Visual Studio Code</h3>
+<p>If you use VS code then you can use <code>Export</code> (click on
+<code>...</code> in the menu bar) to save your notebook as a HTML file.
+Note that you have to run all blocks before so the HTML file contains
+your output.</p>
+<h3 id="using-google-colab">Using Google Colab</h3>
+<p>In Colab you need to save the notebook on GoogleDrive to work with
+it. For this you need to mount your google dive and change to the
+correct directory by uncommenting the following lines and running the
+code block.</p>
+</div>
+<div class="cell code" data-execution_count="163"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:52.518513Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:52.509497Z&quot;}">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># from google.colab import drive</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># import os</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># drive.mount(&#39;/content/drive&#39;)</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># os.chdir(&#39;/content/drive/My Drive/Colab Notebooks/&#39;)</span></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Once you are done with the assignment and have run all code blocks
+using <code>Runtime/Run all</code>, you can convert the file on your
+GoogleDrive into HTML be uncommenting the following line and running the
+block.</p>
+</div>
+<div class="cell code" data-execution_count="164"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:52.640630Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:52.636433Z&quot;}">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># %jupyter nbconvert --to html Copy\ of\ robot_vacuum.ipynb</span></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>You may have to fix the file location or the file name to match how
+it looks on your GoogleDrive. You can navigate in Colab to your
+GoogleDrive using the little folder symbol in the navigation bar to the
+left.</p>
+</div>
+<div class="cell markdown">
+<h2 id="introduction">Introduction</h2>
+<p>In this assignment you will implement a simulator environment for an
+automatic vacuum cleaner robot, a set of different reflex-based agent
+programs, and perform a comparison study for cleaning a single room.
+Focus on the <strong>cleaning phase</strong> which starts when the robot
+is activated and ends when the last dirty square in the room has been
+cleaned. Someone else will take care of the agent program needed to
+navigate back to the charging station after the room is clean.</p>
+<h2 id="peas-description-of-the-cleaning-phase">PEAS description of the
+cleaning phase</h2>
+<p><strong>Performance Measure:</strong> Each action costs 1 energy
+unit. The performance is measured as the sum of the energy units used to
+clean the whole room.</p>
+<p><strong>Environment:</strong> A room with <span
+class="math inline"><em>n</em> × <em>n</em></span> squares where <span
+class="math inline"><em>n</em> = 5</span>. Dirt is randomly placed on
+each square with probability <span
+class="math inline"><em>p</em> = 0.2</span>. For simplicity, you can
+assume that the agent knows the size and the layout of the room (i.e.,
+it knows <span class="math inline"><em>n</em></span>). To start, the
+agent is placed on a random square.</p>
+<p><strong>Actuators:</strong> The agent can clean the current square
+(action <code>suck</code>) or move to an adjacent square by going
+<code>north</code>, <code>east</code>, <code>south</code>, or
+<code>west</code>.</p>
+<p><strong>Sensors:</strong> Four bumper sensors, one for north, east,
+south, and west; a dirt sensor reporting dirt in the current square.</p>
+<h2 id="the-agent-program-for-a-simple-randomized-agent">The agent
+program for a simple randomized agent</h2>
+<p>The agent program is a function that gets sensor information (the
+current percepts) as the arguments. The arguments are:</p>
+<ul>
+<li>A dictionary with boolean entries for the for bumper sensors
+<code>north</code>, <code>east</code>, <code>west</code>,
+<code>south</code>. E.g., if the agent is on the north-west corner,
+<code>bumpers</code> will be
+<code>{"north" : True, "east" : False, "south" : False, "west" : True}</code>.</li>
+<li>The dirt sensor produces a boolean.</li>
+</ul>
+<p>The agent returns the chosen action as a string.</p>
+<p>Here is an example implementation for the agent program of a simple
+randomized agent:</p>
+</div>
+<div class="cell code" data-execution_count="165"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.219598Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:52.643147Z&quot;}">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># make sure numpy is installed</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install <span class="op">-</span>q numpy</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Note: you may need to restart the kernel to use updated packages.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="166"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.223003Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.219598Z&quot;}">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>actions <span class="op">=</span> [<span class="st">&quot;north&quot;</span>, <span class="st">&quot;east&quot;</span>, <span class="st">&quot;west&quot;</span>, <span class="st">&quot;south&quot;</span>, <span class="st">&quot;suck&quot;</span>]</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simple_randomized_agent(bumpers, dirty):</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.random.choice(actions)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="167"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.232858Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.223003Z&quot;}">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define percepts (current location is NW corner and it is dirty)</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>bumpers <span class="op">=</span> {<span class="st">&quot;north&quot;</span> : <span class="va">True</span>, <span class="st">&quot;east&quot;</span> : <span class="va">False</span>, <span class="st">&quot;south&quot;</span> : <span class="va">False</span>, <span class="st">&quot;west&quot;</span> : <span class="va">True</span>}</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>dirty <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># call agent program function with percepts and it returns an action</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>simple_randomized_agent(bumpers, dirty)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="167">
+<pre><code>&#39;east&#39;</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Note:</strong> This is not a rational intelligent agent. It
+ignores its sensors and may bump into a wall repeatedly or not clean a
+dirty square. You will be asked to implement rational agents below.</p>
+</div>
+<section id="simple-environment-example" class="cell markdown">
+<h2>Simple environment example</h2>
+<p>We implement a simple simulation environment that supplies the agent
+with its percepts. The simple environment is infinite in size (bumpers
+are always <code>False</code>) and every square is always dirty, even if
+the agent cleans it. The environment function returns a different
+performance measure than the one specified in the PEAS description!
+Since the room is infinite and all squares are constantly dirty, the
+agent can never clean the whole room. Your implementation needs to
+implement the <strong>correct performance measure.</strong> The energy
+budget of the agent is specified as <code>max_steps</code>.</p>
+</section>
+<div class="cell code" data-execution_count="168"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.240741Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.232858Z&quot;}">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simple_environment(agent_function, max_steps, verbose <span class="op">=</span> <span class="va">True</span>):</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    num_cleaned <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(max_steps):</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>        dirty <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>        bumpers <span class="op">=</span> {<span class="st">&quot;north&quot;</span> : <span class="va">False</span>, <span class="st">&quot;south&quot;</span> : <span class="va">False</span>, <span class="st">&quot;west&quot;</span> : <span class="va">False</span>, <span class="st">&quot;east&quot;</span> : <span class="va">False</span>}</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>        action <span class="op">=</span> agent_function(bumpers, dirty)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (verbose): <span class="bu">print</span>(<span class="st">&quot;step&quot;</span>, i , <span class="st">&quot;- action:&quot;</span>, action) </span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (action <span class="op">==</span> <span class="st">&quot;suck&quot;</span>): </span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>            num_cleaned <span class="op">=</span> num_cleaned <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> num_cleaned</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>        </span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Do one simulation run with a simple randomized agent that has enough
+energy for 20 steps.</p>
+</div>
+<div class="cell code" data-execution_count="169"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.251228Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.240741Z&quot;}">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>simple_environment(simple_randomized_agent, max_steps <span class="op">=</span> <span class="dv">20</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>step 0 - action: west
+step 1 - action: south
+step 2 - action: east
+step 3 - action: north
+step 4 - action: east
+step 5 - action: north
+step 6 - action: suck
+step 7 - action: north
+step 8 - action: north
+step 9 - action: east
+step 10 - action: east
+step 11 - action: suck
+step 12 - action: suck
+step 13 - action: south
+step 14 - action: suck
+step 15 - action: east
+step 16 - action: suck
+step 17 - action: south
+step 18 - action: south
+step 19 - action: north
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="169">
+<pre><code>5</code></pre>
+</div>
+</div>
+<section id="tasks" class="cell markdown">
+<h1>Tasks</h1>
+<h2 id="general-10-points">General [10 Points]</h2>
+<ol>
+<li>Make sure that you use the latest version of this notebook.</li>
+<li>Your implementation can use libraries like math, numpy, scipy, but
+not libraries that implement intelligent agents or complete search
+algorithms. Try to keep the code simple! In this course, we want to
+learn about the algorithms and we often do not need to use
+object-oriented design.</li>
+<li>You notebook needs to be formatted professionally.
+<ul>
+<li>Add additional markdown blocks for your description, comments in the
+code, add tables and use mathplotlib to produce charts where
+appropriate</li>
+<li>Do not show debugging output or include an excessive amount of
+output.</li>
+<li>Check that your submitted file is readable and contains all
+figures.</li>
+</ul></li>
+<li>Document your code. Use comments in the code and add a discussion of
+how your implementation works and your design choices.</li>
+</ol>
+<h2 id="task-1-implement-a-simulation-environment-20-points">Task 1:
+Implement a simulation environment [20 Points]</h2>
+<p>The simple environment above is not very realistic. Your environment
+simulator needs to follow the PEAS description from above. It needs
+to:</p>
+<ul>
+<li>Initialize the environment by storing the state of each square
+(clean/dirty) and making some dirty. (<a
+href="https://github.com/mhahsler/CS7320-AI/blob/master/HOWTOs/random_numbers_and_arrays.ipynb">Help
+with random numbers and arrays in Python</a>)</li>
+<li>Keep track of the agent's position.</li>
+<li>Call the agent function repeatedly and provide the agent function
+with the sensor inputs.<br />
+</li>
+<li>React to the agent's actions. E.g, by removing dirt from a square or
+moving the agent around unless there is a wall in the way.</li>
+<li>Keep track of the performance measure. That is, track the agent's
+actions until all dirty squares are clean and count the number of
+actions it takes the agent to complete the task.</li>
+</ul>
+<p>The easiest implementation for the environment is to hold an
+2-dimensional array to represent if squares are clean or dirty and to
+call the agent function in a loop until all squares are clean or a
+predefined number of steps have been reached (i.e., the robot runs out
+of energy).</p>
+<p>The simulation environment should be a function like the
+<code>simple_environment()</code> and needs to work with the simple
+randomized agent program from above. <strong>Use the same environment
+for all your agent implementations in the tasks below.</strong></p>
+<p><em>Note on debugging:</em> Debugging is difficult. Make sure your
+environment prints enough information when you use
+<code>verbose = True</code>. Also, implementing a function that the
+environment can use to displays the room with dirt and the current
+position of the robot at every step is very useful.</p>
+</section>
+<div class="cell markdown">
+
+</div>
+<div class="cell code" data-execution_count="170"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.259385Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.251228Z&quot;}">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your code and description goes here</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> setup_room(n, p):</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="co">        p: probability of each square being dirty</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a><span class="co">        n: side length of square</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a><span class="co">    Return:</span></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a><span class="co">        environment: n x n numpy array</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>    room <span class="op">=</span> np.zeros((n, n))</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>    k <span class="op">=</span> <span class="bu">round</span>(p <span class="op">*</span> n <span class="op">*</span> n)</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>    idx <span class="op">=</span> np.random.choice(n<span class="op">*</span>n, k, replace<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>    rows, cols <span class="op">=</span> np.unravel_index(idx, (n, n))</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>    room[rows, cols] <span class="op">=</span> <span class="fl">1.0</span></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> room</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> real_environment(agent_function,</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>                     max_steps,</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>                     n <span class="op">=</span> <span class="dv">5</span>,</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>                     p<span class="op">=</span> <span class="fl">0.2</span>,</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>                     verbose <span class="op">=</span> <span class="va">True</span>):</span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Khởi đầu vị trí ngẫu nhiên</span></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> np.random.randint(<span class="dv">0</span>, n)</span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> np.random.randint(<span class="dv">0</span>, n)</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>    room <span class="op">=</span> setup_room(n, p)</span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> verbose <span class="op">==</span> <span class="va">True</span>: </span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(room)</span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;- Current position:[</span><span class="sc">{</span>x<span class="sc">}</span><span class="ss">][</span><span class="sc">{</span>y<span class="sc">}</span><span class="ss">]&quot;</span>)</span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a>    need_to_clean <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(n):</span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(n):</span>
+<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> room[i, j] <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a>                need_to_clean <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a>    need_to_clean_cp<span class="op">=</span> need_to_clean</span>
+<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a>    num_cleaned <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a>    steps <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> steps <span class="op">&lt;</span> max_steps <span class="kw">and</span> need_to_clean <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb12-47"><a href="#cb12-47" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> room[x][y] <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb12-48"><a href="#cb12-48" aria-hidden="true" tabindex="-1"></a>            dirty <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb12-49"><a href="#cb12-49" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb12-50"><a href="#cb12-50" aria-hidden="true" tabindex="-1"></a>            dirty <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb12-51"><a href="#cb12-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-52"><a href="#cb12-52" aria-hidden="true" tabindex="-1"></a>        bumpers <span class="op">=</span> {<span class="st">&quot;north&quot;</span> : <span class="va">False</span>, <span class="st">&quot;south&quot;</span> : <span class="va">False</span>, <span class="st">&quot;west&quot;</span> : <span class="va">False</span>, <span class="st">&quot;east&quot;</span> : <span class="va">False</span>}</span>
+<span id="cb12-53"><a href="#cb12-53" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> x <span class="op">==</span> <span class="dv">0</span> :</span>
+<span id="cb12-54"><a href="#cb12-54" aria-hidden="true" tabindex="-1"></a>            bumpers[<span class="st">&quot;north&quot;</span>] <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb12-55"><a href="#cb12-55" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> y <span class="op">==</span> <span class="dv">0</span> :</span>
+<span id="cb12-56"><a href="#cb12-56" aria-hidden="true" tabindex="-1"></a>            bumpers[<span class="st">&quot;west&quot;</span>] <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb12-57"><a href="#cb12-57" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> x <span class="op">==</span> n<span class="op">-</span><span class="dv">1</span> :</span>
+<span id="cb12-58"><a href="#cb12-58" aria-hidden="true" tabindex="-1"></a>            bumpers[<span class="st">&quot;south&quot;</span>] <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb12-59"><a href="#cb12-59" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> y <span class="op">==</span> n<span class="op">-</span><span class="dv">1</span> :</span>
+<span id="cb12-60"><a href="#cb12-60" aria-hidden="true" tabindex="-1"></a>            bumpers[<span class="st">&quot;east&quot;</span>] <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb12-61"><a href="#cb12-61" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-62"><a href="#cb12-62" aria-hidden="true" tabindex="-1"></a>        action <span class="op">=</span> agent_function(bumpers, dirty)</span>
+<span id="cb12-63"><a href="#cb12-63" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb12-64"><a href="#cb12-64" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (verbose): <span class="bu">print</span>(<span class="st">&quot;step&quot;</span>, steps , <span class="st">&quot;- action:&quot;</span>, action)</span>
+<span id="cb12-65"><a href="#cb12-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-66"><a href="#cb12-66" aria-hidden="true" tabindex="-1"></a>        feedback <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb12-67"><a href="#cb12-67" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> action <span class="op">==</span> <span class="st">&quot;suck&quot;</span>:</span>
+<span id="cb12-68"><a href="#cb12-68" aria-hidden="true" tabindex="-1"></a>            num_cleaned <span class="op">=</span> num_cleaned <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb12-69"><a href="#cb12-69" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> room[x][y] <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb12-70"><a href="#cb12-70" aria-hidden="true" tabindex="-1"></a>                need_to_clean <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb12-71"><a href="#cb12-71" aria-hidden="true" tabindex="-1"></a>                room[x][y] <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb12-72"><a href="#cb12-72" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> verbose: <span class="bu">print</span>(<span class="st">&quot;really sucks up dirt&quot;</span>)</span>
+<span id="cb12-73"><a href="#cb12-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-74"><a href="#cb12-74" aria-hidden="true" tabindex="-1"></a>            steps<span class="op">+=</span><span class="dv">1</span>    </span>
+<span id="cb12-75"><a href="#cb12-75" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb12-76"><a href="#cb12-76" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> action <span class="op">==</span> <span class="st">&quot;north&quot;</span>:</span>
+<span id="cb12-77"><a href="#cb12-77" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> x<span class="op">&gt;</span><span class="dv">0</span>:</span>
+<span id="cb12-78"><a href="#cb12-78" aria-hidden="true" tabindex="-1"></a>                x <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb12-79"><a href="#cb12-79" aria-hidden="true" tabindex="-1"></a>                steps<span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb12-80"><a href="#cb12-80" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb12-81"><a href="#cb12-81" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the North wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb12-82"><a href="#cb12-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-83"><a href="#cb12-83" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> action <span class="op">==</span> <span class="st">&quot;east&quot;</span>:</span>
+<span id="cb12-84"><a href="#cb12-84" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> y<span class="op">&lt;</span>n<span class="op">-</span><span class="dv">1</span>:</span>
+<span id="cb12-85"><a href="#cb12-85" aria-hidden="true" tabindex="-1"></a>                y <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb12-86"><a href="#cb12-86" aria-hidden="true" tabindex="-1"></a>                steps<span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb12-87"><a href="#cb12-87" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb12-88"><a href="#cb12-88" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the East wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb12-89"><a href="#cb12-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-90"><a href="#cb12-90" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> action <span class="op">==</span> <span class="st">&quot;south&quot;</span>:</span>
+<span id="cb12-91"><a href="#cb12-91" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> x<span class="op">&lt;</span>n<span class="op">-</span><span class="dv">1</span>:</span>
+<span id="cb12-92"><a href="#cb12-92" aria-hidden="true" tabindex="-1"></a>                x <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb12-93"><a href="#cb12-93" aria-hidden="true" tabindex="-1"></a>                steps<span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb12-94"><a href="#cb12-94" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb12-95"><a href="#cb12-95" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the South wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb12-96"><a href="#cb12-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-97"><a href="#cb12-97" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> action <span class="op">==</span> <span class="st">&quot;west&quot;</span>:</span>
+<span id="cb12-98"><a href="#cb12-98" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> y<span class="op">&gt;</span><span class="dv">0</span>:</span>
+<span id="cb12-99"><a href="#cb12-99" aria-hidden="true" tabindex="-1"></a>                y <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb12-100"><a href="#cb12-100" aria-hidden="true" tabindex="-1"></a>                steps<span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb12-101"><a href="#cb12-101" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb12-102"><a href="#cb12-102" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the West wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb12-103"><a href="#cb12-103" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> action <span class="op">==</span> <span class="st">&quot;stand still&quot;</span>:</span>
+<span id="cb12-104"><a href="#cb12-104" aria-hidden="true" tabindex="-1"></a>            feedback <span class="op">=</span> <span class="st">&quot;All roads are blocked --&gt; Stand still&quot;</span></span>
+<span id="cb12-105"><a href="#cb12-105" aria-hidden="true" tabindex="-1"></a>            steps<span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb12-106"><a href="#cb12-106" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb12-107"><a href="#cb12-107" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> verbose: </span>
+<span id="cb12-108"><a href="#cb12-108" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;- Current position:[</span><span class="sc">{</span>x<span class="sc">}</span><span class="ss">][</span><span class="sc">{</span>y<span class="sc">}</span><span class="ss">]&quot;</span>)</span>
+<span id="cb12-109"><a href="#cb12-109" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> feedback <span class="op">!=</span><span class="st">&quot;&quot;</span> <span class="kw">and</span> verbose:</span>
+<span id="cb12-110"><a href="#cb12-110" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;Feedback&quot;</span>, feedback)</span>
+<span id="cb12-111"><a href="#cb12-111" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>()</span>
+<span id="cb12-112"><a href="#cb12-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-113"><a href="#cb12-113" aria-hidden="true" tabindex="-1"></a>    Actual_amount_of_dirt_vacuumed <span class="op">=</span> need_to_clean_cp<span class="op">-</span>need_to_clean</span>
+<span id="cb12-114"><a href="#cb12-114" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> verbose:</span>
+<span id="cb12-115"><a href="#cb12-115" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>()</span>
+<span id="cb12-116"><a href="#cb12-116" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;Amount of dirt:&quot;</span>, need_to_clean_cp)</span>
+<span id="cb12-117"><a href="#cb12-117" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;Actual amount of dirt vacuumed: &quot;</span>, Actual_amount_of_dirt_vacuumed)</span>
+<span id="cb12-118"><a href="#cb12-118" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> steps, need_to_clean_cp, Actual_amount_of_dirt_vacuumed</span>
+<span id="cb12-119"><a href="#cb12-119" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-120"><a href="#cb12-120" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Show that your environment works with the simple randomized agent
+from above.</p>
+</div>
+<div class="cell code" data-execution_count="171"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.268606Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.259385Z&quot;}">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your code and description goes here</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>real_environment(agent_function<span class="op">=</span>simple_randomized_agent, </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>                 max_steps <span class="op">=</span> <span class="dv">20</span>,</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>                 n <span class="op">=</span> <span class="dv">5</span>, </span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>                 p<span class="op">=</span><span class="fl">0.2</span>,</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>                 verbose<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[[0. 1. 0. 1. 0.]
+ [0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]]
+- Current position:[2][3]
+step 0 - action: west
+- Current position:[2][2]
+step 1 - action: north
+- Current position:[1][2]
+step 2 - action: south
+- Current position:[2][2]
+step 3 - action: south
+- Current position:[3][2]
+step 4 - action: east
+- Current position:[3][3]
+step 5 - action: west
+- Current position:[3][2]
+step 6 - action: east
+- Current position:[3][3]
+step 7 - action: north
+- Current position:[2][3]
+step 8 - action: north
+- Current position:[1][3]
+step 9 - action: south
+- Current position:[2][3]
+step 10 - action: east
+- Current position:[2][4]
+step 11 - action: west
+- Current position:[2][3]
+step 12 - action: east
+- Current position:[2][4]
+step 13 - action: north
+- Current position:[1][4]
+step 14 - action: suck
+- Current position:[1][4]
+step 15 - action: north
+- Current position:[0][4]
+step 16 - action: north
+- Current position:[0][4]
+Feedback Hit the North wall (no movement) --&gt; change direction
+
+step 16 - action: west
+- Current position:[0][3]
+step 17 - action: east
+- Current position:[0][4]
+step 18 - action: south
+- Current position:[1][4]
+step 19 - action: east
+- Current position:[1][4]
+Feedback Hit the East wall (no movement) --&gt; change direction
+
+step 19 - action: suck
+- Current position:[1][4]
+
+Amount of dirt: 5
+Actual amount of dirt vacuumed:  0
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="171">
+<pre><code>(20, 5, 0)</code></pre>
+</div>
+</div>
+<section id="task-2-implement-a-simple-reflex-agent-10-points"
+class="cell markdown">
+<h2>Task 2: Implement a simple reflex agent [10 Points]</h2>
+<p>The simple reflex agent randomly walks around but reacts to the
+bumper sensor by not bumping into the wall and to dirt with sucking.
+Implement the agent program as a function.</p>
+<p><em>Note:</em> Agents cannot directly use variable in the
+environment. They only gets the percepts as the arguments to the agent
+function. Use the function signature for the
+<code>simple_randomized_agent</code> function above.</p>
+</section>
+<div class="cell code" data-execution_count="172"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.275784Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.268606Z&quot;}">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your code and description goes here</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simple_reflex_agent(bumpers, dirty):</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    moves <span class="op">=</span> [<span class="st">&quot;north&quot;</span>, <span class="st">&quot;east&quot;</span>, <span class="st">&quot;south&quot;</span>, <span class="st">&quot;west&quot;</span>]</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> dirty <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&quot;suck&quot;</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> bumpers[<span class="st">&quot;north&quot;</span>] <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>        moves.remove(<span class="st">&quot;north&quot;</span>)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> bumpers[<span class="st">&quot;east&quot;</span>] <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>        moves.remove(<span class="st">&quot;east&quot;</span>)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> bumpers[<span class="st">&quot;south&quot;</span>] <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>        moves.remove(<span class="st">&quot;south&quot;</span>)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> bumpers[<span class="st">&quot;west&quot;</span>] <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>        moves.remove(<span class="st">&quot;west&quot;</span>)</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>        action <span class="op">=</span> np.random.choice(moves)</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">ValueError</span>:</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>        action <span class="op">=</span> <span class="st">&quot;stand still&quot;</span></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> action</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Show how the agent works with your environment.</p>
+</div>
+<div class="cell code" data-execution_count="173"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.284214Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.275784Z&quot;}">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your code and description goes here</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>real_environment(agent_function<span class="op">=</span>simple_reflex_agent,</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>                 max_steps <span class="op">=</span> <span class="dv">50</span>,</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>                 n <span class="op">=</span> <span class="dv">5</span>,</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>                 p <span class="op">=</span> <span class="fl">0.2</span>,</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>                 verbose<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[[0. 1. 1. 0. 0.]
+ [0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0.]
+ [0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]]
+- Current position:[2][0]
+step 0 - action: south
+- Current position:[3][0]
+step 1 - action: north
+- Current position:[2][0]
+step 2 - action: north
+- Current position:[1][0]
+step 3 - action: south
+- Current position:[2][0]
+step 4 - action: south
+- Current position:[3][0]
+step 5 - action: south
+- Current position:[4][0]
+step 6 - action: suck
+really sucks up dirt
+- Current position:[4][0]
+step 7 - action: east
+- Current position:[4][1]
+step 8 - action: north
+- Current position:[3][1]
+step 9 - action: north
+- Current position:[2][1]
+step 10 - action: suck
+really sucks up dirt
+- Current position:[2][1]
+step 11 - action: west
+- Current position:[2][0]
+step 12 - action: north
+- Current position:[1][0]
+step 13 - action: south
+- Current position:[2][0]
+step 14 - action: north
+- Current position:[1][0]
+step 15 - action: south
+- Current position:[2][0]
+step 16 - action: south
+- Current position:[3][0]
+step 17 - action: north
+- Current position:[2][0]
+step 18 - action: north
+- Current position:[1][0]
+step 19 - action: east
+- Current position:[1][1]
+step 20 - action: east
+- Current position:[1][2]
+step 21 - action: south
+- Current position:[2][2]
+step 22 - action: north
+- Current position:[1][2]
+step 23 - action: south
+- Current position:[2][2]
+step 24 - action: north
+- Current position:[1][2]
+step 25 - action: east
+- Current position:[1][3]
+step 26 - action: suck
+really sucks up dirt
+- Current position:[1][3]
+step 27 - action: north
+- Current position:[0][3]
+step 28 - action: south
+- Current position:[1][3]
+step 29 - action: south
+- Current position:[2][3]
+step 30 - action: east
+- Current position:[2][4]
+step 31 - action: south
+- Current position:[3][4]
+step 32 - action: south
+- Current position:[4][4]
+step 33 - action: north
+- Current position:[3][4]
+step 34 - action: south
+- Current position:[4][4]
+step 35 - action: north
+- Current position:[3][4]
+step 36 - action: north
+- Current position:[2][4]
+step 37 - action: south
+- Current position:[3][4]
+step 38 - action: north
+- Current position:[2][4]
+step 39 - action: north
+- Current position:[1][4]
+step 40 - action: north
+- Current position:[0][4]
+step 41 - action: south
+- Current position:[1][4]
+step 42 - action: north
+- Current position:[0][4]
+step 43 - action: west
+- Current position:[0][3]
+step 44 - action: east
+- Current position:[0][4]
+step 45 - action: west
+- Current position:[0][3]
+step 46 - action: east
+- Current position:[0][4]
+step 47 - action: west
+- Current position:[0][3]
+step 48 - action: south
+- Current position:[1][3]
+step 49 - action: west
+- Current position:[1][2]
+
+Amount of dirt: 5
+Actual amount of dirt vacuumed:  3
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="173">
+<pre><code>(50, 5, 3)</code></pre>
+</div>
+</div>
+<section id="task-3-implement-a-model-based-reflex-agent-20-points"
+class="cell markdown">
+<h2>Task 3: Implement a model-based reflex agent [20 Points]</h2>
+<p>Model-based agents use a state to keep track of what they have done
+and perceived so far. Your agent needs to find out where it is located
+and then keep track of its current location. You also need a set of
+rules based on the state and the percepts to make sure that the agent
+will clean the whole room. For example, the agent can move to a corner
+to determine its location and then it can navigate through the whole
+room and clean dirty squares.</p>
+<p>Describe how you define the <strong>agent state</strong> and how your
+agent works before implementing it. (<a
+href="https://github.com/mhahsler/CS7320-AI/blob/master/HOWTOs/store_agent_state_information.ipynb">Help
+with implementing state information on Python</a>)</p>
+</section>
+<div class="cell code" data-execution_count="174"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.289353Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.284214Z&quot;}">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your short description of the state and your implementation goes here</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co">Di chuyển về góc rồi di di chuyển ngang dọc để hút bụi</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="174">
+<pre><code>&#39;\nDi chuyển về góc rồi di di chuyển ngang dọc để hút bụi\n&#39;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="175"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.299582Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.289353Z&quot;}">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Model-based Reflex Agent</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Agent:</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>,</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>                 max_steps<span class="op">=</span><span class="dv">20</span>, </span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>                 room <span class="op">=</span> setup_room(<span class="dv">5</span>, <span class="fl">0.2</span>),</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>                 station_location<span class="op">=</span>[<span class="dv">0</span>, <span class="dv">0</span>], </span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>                 verbose<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>                 percent_error <span class="op">=</span> <span class="fl">0.0</span>):</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.state <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.n <span class="op">=</span> <span class="bu">len</span>(room)   <span class="co"># cạnh hình vuông</span></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.actions_can_choice <span class="op">=</span> [<span class="st">&quot;north&quot;</span>, <span class="st">&quot;east&quot;</span>, <span class="st">&quot;south&quot;</span>, <span class="st">&quot;west&quot;</span>, <span class="st">&quot;suck&quot;</span> , <span class="st">&quot;stand still&quot;</span>]</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.position_x <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.position_y <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.steps <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.max_steps <span class="op">=</span> max_steps</span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.station_location <span class="op">=</span> station_location</span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.room <span class="op">=</span> room</span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.need_to_clean <span class="op">=</span> <span class="va">self</span>.fc_need_to_clean()</span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.actual_dirt_vacuumed <span class="op">=</span> <span class="va">self</span>.need_to_clean</span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.verbose <span class="op">=</span> verbose</span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.percent_error <span class="op">=</span> percent_error</span>
+<span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> fc_need_to_clean(<span class="va">self</span>):</span>
+<span id="cb22-28"><a href="#cb22-28" aria-hidden="true" tabindex="-1"></a>        need_to_clean <span class="op">=</span><span class="dv">0</span></span>
+<span id="cb22-29"><a href="#cb22-29" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.n):</span>
+<span id="cb22-30"><a href="#cb22-30" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.n):</span>
+<span id="cb22-31"><a href="#cb22-31" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> room[i, j] <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb22-32"><a href="#cb22-32" aria-hidden="true" tabindex="-1"></a>                    need_to_clean <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-33"><a href="#cb22-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> need_to_clean</span>
+<span id="cb22-34"><a href="#cb22-34" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-35"><a href="#cb22-35" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> update_agent_location(<span class="va">self</span>, x, y):</span>
+<span id="cb22-36"><a href="#cb22-36" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.position_x <span class="op">=</span> x</span>
+<span id="cb22-37"><a href="#cb22-37" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.position_y <span class="op">=</span> y</span>
+<span id="cb22-38"><a href="#cb22-38" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-39"><a href="#cb22-39" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> moving (<span class="va">self</span>, direction):</span>
+<span id="cb22-40"><a href="#cb22-40" aria-hidden="true" tabindex="-1"></a>        feedback <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb22-41"><a href="#cb22-41" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> direction <span class="op">==</span> <span class="st">&quot;north&quot;</span>:</span>
+<span id="cb22-42"><a href="#cb22-42" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.position_x <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb22-43"><a href="#cb22-43" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.position_x <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb22-44"><a href="#cb22-44" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-45"><a href="#cb22-45" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb22-46"><a href="#cb22-46" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the North wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb22-47"><a href="#cb22-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-48"><a href="#cb22-48" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> direction <span class="op">==</span> <span class="st">&quot;east&quot;</span>:</span>
+<span id="cb22-49"><a href="#cb22-49" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.position_y <span class="op">&lt;</span> <span class="va">self</span>.n <span class="op">-</span> <span class="dv">1</span>:</span>
+<span id="cb22-50"><a href="#cb22-50" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.position_y <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-51"><a href="#cb22-51" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-52"><a href="#cb22-52" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb22-53"><a href="#cb22-53" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the East wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb22-54"><a href="#cb22-54" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-55"><a href="#cb22-55" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> direction <span class="op">==</span> <span class="st">&quot;south&quot;</span>:</span>
+<span id="cb22-56"><a href="#cb22-56" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.position_x <span class="op">&lt;</span> <span class="va">self</span>.n<span class="op">-</span><span class="dv">1</span>:</span>
+<span id="cb22-57"><a href="#cb22-57" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.position_x <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-58"><a href="#cb22-58" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-59"><a href="#cb22-59" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb22-60"><a href="#cb22-60" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the South wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb22-61"><a href="#cb22-61" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb22-62"><a href="#cb22-62" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> direction <span class="op">==</span> <span class="st">&quot;west&quot;</span>:</span>
+<span id="cb22-63"><a href="#cb22-63" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.position_y <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb22-64"><a href="#cb22-64" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.position_y <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb22-65"><a href="#cb22-65" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-66"><a href="#cb22-66" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb22-67"><a href="#cb22-67" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the West wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb22-68"><a href="#cb22-68" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> direction <span class="op">==</span> <span class="st">&quot;stand still&quot;</span>:</span>
+<span id="cb22-69"><a href="#cb22-69" aria-hidden="true" tabindex="-1"></a>            feedback <span class="op">=</span> <span class="st">&quot;All roads are blocked --&gt; Stand still&quot;</span></span>
+<span id="cb22-70"><a href="#cb22-70" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-71"><a href="#cb22-71" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-72"><a href="#cb22-72" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;- Current position:[</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_x<span class="sc">}</span><span class="ss">][</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_y<span class="sc">}</span><span class="ss">]&quot;</span>)</span>
+<span id="cb22-73"><a href="#cb22-73" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> feedback<span class="op">!=</span><span class="st">&quot;&quot;</span> <span class="kw">and</span> <span class="va">self</span>.verbose:</span>
+<span id="cb22-74"><a href="#cb22-74" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(feedback, <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb22-75"><a href="#cb22-75" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-76"><a href="#cb22-76" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-77"><a href="#cb22-77" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> go_to_the_station(<span class="va">self</span>):</span>
+<span id="cb22-78"><a href="#cb22-78" aria-hidden="true" tabindex="-1"></a>        <span class="co"># simple: Tìm đường đi đến góc [0][0]</span></span>
+<span id="cb22-79"><a href="#cb22-79" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-80"><a href="#cb22-80" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;--&gt; Go to station location&quot;</span>)</span>
+<span id="cb22-81"><a href="#cb22-81" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> <span class="va">self</span>.position_x<span class="op">&gt;</span><span class="dv">0</span> :</span>
+<span id="cb22-82"><a href="#cb22-82" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.position_x <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb22-83"><a href="#cb22-83" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.steps <span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb22-84"><a href="#cb22-84" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> <span class="va">self</span>.position_y<span class="op">&gt;</span><span class="dv">0</span> :</span>
+<span id="cb22-85"><a href="#cb22-85" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.steps <span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb22-86"><a href="#cb22-86" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.position_y <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb22-87"><a href="#cb22-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-88"><a href="#cb22-88" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-89"><a href="#cb22-89" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;- Current position:[</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_x<span class="sc">}</span><span class="ss">][</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_y<span class="sc">}</span><span class="ss">]&quot;</span>)</span>
+<span id="cb22-90"><a href="#cb22-90" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb22-91"><a href="#cb22-91" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-92"><a href="#cb22-92" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> action_suck(<span class="va">self</span>):</span>
+<span id="cb22-93"><a href="#cb22-93" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-94"><a href="#cb22-94" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> room[<span class="va">self</span>.position_x, <span class="va">self</span>.position_y] <span class="op">==</span> <span class="fl">1.</span>:</span>
+<span id="cb22-95"><a href="#cb22-95" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.actual_dirt_vacuumed <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb22-96"><a href="#cb22-96" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.room[<span class="va">self</span>.position_x, <span class="va">self</span>.position_y] <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb22-97"><a href="#cb22-97" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-98"><a href="#cb22-98" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;--&gt; SUCK&quot;</span>)</span>
+<span id="cb22-99"><a href="#cb22-99" aria-hidden="true" tabindex="-1"></a>    <span class="co"># def change_direction(self, direction):</span></span>
+<span id="cb22-100"><a href="#cb22-100" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> check_dirt(<span class="va">self</span>, i, j):</span>
+<span id="cb22-101"><a href="#cb22-101" aria-hidden="true" tabindex="-1"></a>        k <span class="op">=</span> np.random.randint(<span class="dv">10</span>)</span>
+<span id="cb22-102"><a href="#cb22-102" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> k <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb22-103"><a href="#cb22-103" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="va">self</span>.room[i][j]</span>
+<span id="cb22-104"><a href="#cb22-104" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb22-105"><a href="#cb22-105" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> np.<span class="bu">abs</span>(<span class="va">self</span>.room[i][j] <span class="op">-</span> <span class="dv">1</span>)</span>
+<span id="cb22-106"><a href="#cb22-106" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb22-107"><a href="#cb22-107" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> whole_house_vacuuming(<span class="va">self</span>):</span>
+<span id="cb22-108"><a href="#cb22-108" aria-hidden="true" tabindex="-1"></a>        <span class="co"># self.steps = 0</span></span>
+<span id="cb22-109"><a href="#cb22-109" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-110"><a href="#cb22-110" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;- Current position:[</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_x<span class="sc">}</span><span class="ss">][</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_y<span class="sc">}</span><span class="ss">]&quot;</span>)</span>
+<span id="cb22-111"><a href="#cb22-111" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.position_x <span class="op">==</span> <span class="dv">0</span> <span class="kw">and</span> <span class="va">self</span>.position_y <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb22-112"><a href="#cb22-112" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-113"><a href="#cb22-113" aria-hidden="true" tabindex="-1"></a>                <span class="bu">print</span>(<span class="st">&quot;Already at the charging station&quot;</span>)</span>
+<span id="cb22-114"><a href="#cb22-114" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb22-115"><a href="#cb22-115" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-116"><a href="#cb22-116" aria-hidden="true" tabindex="-1"></a>                <span class="bu">print</span>(<span class="st">&quot;Not at the charging station yet.&quot;</span>)</span>
+<span id="cb22-117"><a href="#cb22-117" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.go_to_the_station()</span>
+<span id="cb22-118"><a href="#cb22-118" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-119"><a href="#cb22-119" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;==&gt; Start vacuuming the whole room.&quot;</span>)</span>
+<span id="cb22-120"><a href="#cb22-120" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-121"><a href="#cb22-121" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.n<span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb22-122"><a href="#cb22-122" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.n<span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb22-123"><a href="#cb22-123" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="va">self</span>.percent_error <span class="op">!=</span> <span class="fl">0.0</span>:</span>
+<span id="cb22-124"><a href="#cb22-124" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.check_dirt(<span class="va">self</span>.position_x, <span class="va">self</span>.position_y):</span>
+<span id="cb22-125"><a href="#cb22-125" aria-hidden="true" tabindex="-1"></a>                        <span class="va">self</span>.action_suck()</span>
+<span id="cb22-126"><a href="#cb22-126" aria-hidden="true" tabindex="-1"></a>                <span class="cf">elif</span> <span class="va">self</span>.room[<span class="va">self</span>.position_x][<span class="va">self</span>.position_y] <span class="op">==</span> <span class="fl">1.</span>:</span>
+<span id="cb22-127"><a href="#cb22-127" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.action_suck()</span>
+<span id="cb22-128"><a href="#cb22-128" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> i <span class="op">%</span> <span class="dv">2</span> <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb22-129"><a href="#cb22-129" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-130"><a href="#cb22-130" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="st">&quot;move east&quot;</span>)</span>
+<span id="cb22-131"><a href="#cb22-131" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.moving(<span class="st">&quot;east&quot;</span>)</span>
+<span id="cb22-132"><a href="#cb22-132" aria-hidden="true" tabindex="-1"></a>                <span class="cf">else</span>:</span>
+<span id="cb22-133"><a href="#cb22-133" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-134"><a href="#cb22-134" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="st">&quot;move west&quot;</span>)</span>
+<span id="cb22-135"><a href="#cb22-135" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.moving(<span class="st">&quot;west&quot;</span>)</span>
+<span id="cb22-136"><a href="#cb22-136" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb22-137"><a href="#cb22-137" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> i<span class="op">!=</span><span class="va">self</span>.n<span class="op">-</span><span class="dv">1</span>:</span>
+<span id="cb22-138"><a href="#cb22-138" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-139"><a href="#cb22-139" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="st">&quot;move south&quot;</span>)</span>
+<span id="cb22-140"><a href="#cb22-140" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.moving(<span class="st">&quot;south&quot;</span>)</span>
+<span id="cb22-141"><a href="#cb22-141" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb22-142"><a href="#cb22-142" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.steps <span class="op">&gt;=</span> <span class="va">self</span>.max_steps:</span>
+<span id="cb22-143"><a href="#cb22-143" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb22-144"><a href="#cb22-144" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="st">&quot;Out of energy --&gt; stop vacuuming&quot;</span>)</span>
+<span id="cb22-145"><a href="#cb22-145" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span></span>
+<span id="cb22-146"><a href="#cb22-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-147"><a href="#cb22-147" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-148"><a href="#cb22-148" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;==&gt; End vacuuming the whole room.&quot;</span>)</span>
+<span id="cb22-149"><a href="#cb22-149" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose: </span>
+<span id="cb22-150"><a href="#cb22-150" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;The performance measure: &quot;</span>, <span class="va">self</span>.steps)</span>
+<span id="cb22-151"><a href="#cb22-151" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="176"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.307371Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.299582Z&quot;}">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> <span class="fl">0.2</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>room <span class="op">=</span> setup_room(n, p)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(room)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[[0. 0. 0. ... 0. 0. 1.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ ...
+ [0. 0. 1. ... 0. 0. 0.]
+ [0. 1. 0. ... 0. 0. 0.]
+ [1. 0. 0. ... 0. 0. 1.]]
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Show how the agent works with your environment.</p>
+</div>
+<div class="cell code" data-execution_count="177"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.317879Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.307371Z&quot;}">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your code goes here</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>agent_1 <span class="op">=</span> Agent(max_steps<span class="op">=</span><span class="dv">20</span>,</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>                room <span class="op">=</span> room,</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>                station_location<span class="op">=</span>[<span class="dv">0</span>,<span class="dv">0</span>],</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>                verbose<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>agent_1.update_agent_location(x<span class="op">=</span><span class="dv">4</span>, y<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>agent_1.whole_house_vacuuming()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>- Current position:[4][2]
+Not at the charging station yet.
+--&gt; Go to station location
+- Current position:[0][0]
+==&gt; Start vacuuming the whole room.
+move east
+- Current position:[0][1]
+move east
+- Current position:[0][2]
+move east
+- Current position:[0][3]
+move east
+- Current position:[0][4]
+move east
+- Current position:[0][5]
+move east
+- Current position:[0][6]
+move east
+- Current position:[0][7]
+move east
+- Current position:[0][8]
+--&gt; SUCK
+move east
+- Current position:[0][9]
+move east
+- Current position:[0][10]
+move east
+- Current position:[0][11]
+move east
+- Current position:[0][12]
+move east
+- Current position:[0][13]
+move east
+- Current position:[0][14]
+move east
+- Current position:[0][15]
+move east
+- Current position:[0][16]
+--&gt; SUCK
+move east
+- Current position:[0][17]
+move east
+- Current position:[0][18]
+move east
+- Current position:[0][19]
+move east
+- Current position:[0][20]
+--&gt; SUCK
+move east
+- Current position:[0][21]
+move east
+- Current position:[0][22]
+move east
+- Current position:[0][23]
+--&gt; SUCK
+move east
+- Current position:[0][24]
+move east
+- Current position:[0][25]
+move east
+- Current position:[0][26]
+move east
+- Current position:[0][27]
+move east
+- Current position:[0][28]
+move east
+- Current position:[0][29]
+move east
+- Current position:[0][30]
+move east
+- Current position:[0][31]
+move east
+- Current position:[0][32]
+move east
+- Current position:[0][33]
+move east
+- Current position:[0][34]
+move east
+- Current position:[0][35]
+--&gt; SUCK
+move east
+- Current position:[0][36]
+move east
+- Current position:[0][37]
+move east
+- Current position:[0][38]
+move east
+- Current position:[0][39]
+move east
+- Current position:[0][40]
+--&gt; SUCK
+move east
+- Current position:[0][41]
+--&gt; SUCK
+move east
+- Current position:[0][42]
+--&gt; SUCK
+move east
+- Current position:[0][43]
+move east
+- Current position:[0][44]
+--&gt; SUCK
+move east
+- Current position:[0][45]
+--&gt; SUCK
+move east
+- Current position:[0][46]
+move east
+- Current position:[0][47]
+move east
+- Current position:[0][48]
+move east
+- Current position:[0][49]
+move east
+- Current position:[0][50]
+move east
+- Current position:[0][51]
+move east
+- Current position:[0][52]
+move east
+- Current position:[0][53]
+move east
+- Current position:[0][54]
+move east
+- Current position:[0][55]
+--&gt; SUCK
+move east
+- Current position:[0][56]
+move east
+- Current position:[0][57]
+move east
+- Current position:[0][58]
+move east
+- Current position:[0][59]
+--&gt; SUCK
+move east
+- Current position:[0][60]
+move east
+- Current position:[0][61]
+move east
+- Current position:[0][62]
+move east
+- Current position:[0][63]
+move east
+- Current position:[0][64]
+move east
+- Current position:[0][65]
+move east
+- Current position:[0][66]
+move east
+- Current position:[0][67]
+--&gt; SUCK
+move east
+- Current position:[0][68]
+move east
+- Current position:[0][69]
+move east
+- Current position:[0][70]
+move east
+- Current position:[0][71]
+move east
+- Current position:[0][72]
+move east
+- Current position:[0][73]
+move east
+- Current position:[0][74]
+move east
+- Current position:[0][75]
+--&gt; SUCK
+move east
+- Current position:[0][76]
+move east
+- Current position:[0][77]
+--&gt; SUCK
+move east
+- Current position:[0][78]
+move east
+- Current position:[0][79]
+move east
+- Current position:[0][80]
+move east
+- Current position:[0][81]
+move east
+- Current position:[0][82]
+move east
+- Current position:[0][83]
+--&gt; SUCK
+move east
+- Current position:[0][84]
+move east
+- Current position:[0][85]
+move east
+- Current position:[0][86]
+move east
+- Current position:[0][87]
+--&gt; SUCK
+move east
+- Current position:[0][88]
+move east
+- Current position:[0][89]
+move east
+- Current position:[0][90]
+move east
+- Current position:[0][91]
+move east
+- Current position:[0][92]
+move east
+- Current position:[0][93]
+move east
+- Current position:[0][94]
+move east
+- Current position:[0][95]
+move east
+- Current position:[0][96]
+move east
+- Current position:[0][97]
+move east
+- Current position:[0][98]
+move east
+- Current position:[0][99]
+move south
+- Current position:[1][99]
+Out of energy --&gt; stop vacuuming
+==&gt; End vacuuming the whole room.
+The performance measure:  123
+</code></pre>
+</div>
+</div>
+<section id="task-4-simulation-study-30-points" class="cell markdown">
+<h2>Task 4: Simulation study [30 Points]</h2>
+<p>Compare the performance (the performance measure is defined in the
+PEAS description above) of the agents using environments of different
+size. Do at least <span class="math inline">5 × 5</span>, <span
+class="math inline">10 × 10</span> and <span
+class="math inline">100 × 100</span>. Use 100 random runs for each.
+Present the results using tables and graphs. Discuss the differences
+between the agents. (<a
+href="https://github.com/mhahsler/CS7320-AI/blob/master/HOWTOs/charts_and_tables.ipynb">Help
+with charts and tables in Python</a>)</p>
+</section>
+<div class="cell code" data-execution_count="186"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:22:07.955355Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:22:07.946058Z&quot;}">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your code goes here</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Lấy max_steps cho Randomized Agent | Simple Reflex Agent là: 200</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> Compare_the_performance_1(n<span class="op">=</span><span class="dv">5</span>, p<span class="op">=</span><span class="fl">0.2</span>, max_steps<span class="op">=</span><span class="dv">200</span>, <span class="bu">iter</span><span class="op">=</span><span class="dv">100</span>, verbose<span class="op">=</span><span class="va">False</span>):</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>    avg_p_random <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>    avg_p_simple <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    avg_p_reflex <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_1, avg_actual_dirt_vacuumed_1 <span class="op">=</span> <span class="dv">1</span>, <span class="dv">1</span></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_2, avg_actual_dirt_vacuumed_2 <span class="op">=</span> <span class="dv">1</span>, <span class="dv">1</span></span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_3, avg_actual_dirt_vacuumed_3 <span class="op">=</span> <span class="dv">1</span>, <span class="dv">1</span></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">iter</span>):</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>        p_random, need_to_clean_1, actual_dirt_vacuumed_1 <span class="op">=</span> real_environment(agent_function<span class="op">=</span>simple_randomized_agent,</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>                                                                             max_steps <span class="op">=</span> max_steps,</span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>                                                                             n <span class="op">=</span> n,</span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a>                                                                             p<span class="op">=</span>p,</span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>                                                                             verbose<span class="op">=</span>verbose)</span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a>        avg_p_random<span class="op">+=</span>p_random</span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>        avg_need_to_clean_1 <span class="op">+=</span>need_to_clean_1</span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>        avg_actual_dirt_vacuumed_1<span class="op">+=</span> actual_dirt_vacuumed_1</span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a>        <span class="co">#####################################################################</span></span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a>        p_simple, need_to_clean_2, actual_dirt_vacuumed_2 <span class="op">=</span> real_environment(agent_function<span class="op">=</span>simple_reflex_agent,</span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a>                                                                             max_steps <span class="op">=</span> max_steps,</span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a>                                                                             n <span class="op">=</span> n,</span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a>                                                                             p <span class="op">=</span> p,</span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a>                                                                             verbose<span class="op">=</span>verbose)</span>
+<span id="cb27-25"><a href="#cb27-25" aria-hidden="true" tabindex="-1"></a>        avg_p_simple<span class="op">+=</span>p_simple</span>
+<span id="cb27-26"><a href="#cb27-26" aria-hidden="true" tabindex="-1"></a>        avg_need_to_clean_2 <span class="op">+=</span> need_to_clean_2</span>
+<span id="cb27-27"><a href="#cb27-27" aria-hidden="true" tabindex="-1"></a>        avg_actual_dirt_vacuumed_2 <span class="op">+=</span> actual_dirt_vacuumed_2</span>
+<span id="cb27-28"><a href="#cb27-28" aria-hidden="true" tabindex="-1"></a>        <span class="co">#####################################################################</span></span>
+<span id="cb27-29"><a href="#cb27-29" aria-hidden="true" tabindex="-1"></a>        room <span class="op">=</span> setup_room(n, p)</span>
+<span id="cb27-30"><a href="#cb27-30" aria-hidden="true" tabindex="-1"></a>        agent_1 <span class="op">=</span> Agent(max_steps<span class="op">=</span>max_steps,</span>
+<span id="cb27-31"><a href="#cb27-31" aria-hidden="true" tabindex="-1"></a>                        room <span class="op">=</span> room,</span>
+<span id="cb27-32"><a href="#cb27-32" aria-hidden="true" tabindex="-1"></a>                        station_location<span class="op">=</span>[<span class="dv">0</span>, <span class="dv">0</span>],</span>
+<span id="cb27-33"><a href="#cb27-33" aria-hidden="true" tabindex="-1"></a>                        verbose<span class="op">=</span>verbose)</span>
+<span id="cb27-34"><a href="#cb27-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-35"><a href="#cb27-35" aria-hidden="true" tabindex="-1"></a>        agent_1.update_agent_location(x<span class="op">=</span>np.random.randint(<span class="dv">0</span>, n), y<span class="op">=</span>np.random.randint(<span class="dv">0</span>, n))</span>
+<span id="cb27-36"><a href="#cb27-36" aria-hidden="true" tabindex="-1"></a>        agent_1.whole_house_vacuuming()</span>
+<span id="cb27-37"><a href="#cb27-37" aria-hidden="true" tabindex="-1"></a>        avg_p_reflex<span class="op">+=</span>agent_1.steps</span>
+<span id="cb27-38"><a href="#cb27-38" aria-hidden="true" tabindex="-1"></a>        avg_need_to_clean_3 <span class="op">+=</span> agent_1.need_to_clean</span>
+<span id="cb27-39"><a href="#cb27-39" aria-hidden="true" tabindex="-1"></a>        avg_actual_dirt_vacuumed_3 <span class="op">+=</span> agent_1.actual_dirt_vacuumed</span>
+<span id="cb27-40"><a href="#cb27-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-41"><a href="#cb27-41" aria-hidden="true" tabindex="-1"></a>    avg_p_random <span class="op">=</span> avg_p_random<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb27-42"><a href="#cb27-42" aria-hidden="true" tabindex="-1"></a>    avg_p_simple <span class="op">=</span> avg_p_simple<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb27-43"><a href="#cb27-43" aria-hidden="true" tabindex="-1"></a>    avg_p_reflex <span class="op">=</span> avg_p_reflex<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb27-44"><a href="#cb27-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-45"><a href="#cb27-45" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_1 <span class="op">=</span> avg_need_to_clean_1<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb27-46"><a href="#cb27-46" aria-hidden="true" tabindex="-1"></a>    avg_actual_dirt_vacuumed_1 <span class="op">=</span> avg_actual_dirt_vacuumed_1<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb27-47"><a href="#cb27-47" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_2 <span class="op">=</span> avg_need_to_clean_2<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb27-48"><a href="#cb27-48" aria-hidden="true" tabindex="-1"></a>    avg_actual_dirt_vacuumed_2 <span class="op">=</span> avg_actual_dirt_vacuumed_2<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb27-49"><a href="#cb27-49" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_3 <span class="op">=</span> avg_need_to_clean_3<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb27-50"><a href="#cb27-50" aria-hidden="true" tabindex="-1"></a>    avg_actual_dirt_vacuumed_3 <span class="op">=</span> avg_actual_dirt_vacuumed_3<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb27-51"><a href="#cb27-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-52"><a href="#cb27-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-53"><a href="#cb27-53" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Random: </span><span class="sc">{</span>avg_p_random<span class="sc">}</span><span class="ss"> || Cleaning progress:</span><span class="sc">{</span>avg_actual_dirt_vacuumed_1<span class="op">/</span>avg_need_to_clean_1 <span class="op">*</span> <span class="dv">100</span><span class="sc">}</span><span class="ss"> %&quot;</span>)</span>
+<span id="cb27-54"><a href="#cb27-54" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Simple: </span><span class="sc">{</span>avg_p_simple<span class="sc">}</span><span class="ss"> || Cleaning progress:</span><span class="sc">{</span>avg_actual_dirt_vacuumed_2<span class="op">/</span>avg_need_to_clean_2 <span class="op">*</span><span class="dv">100</span><span class="sc">}</span><span class="ss"> %&quot;</span>)</span>
+<span id="cb27-55"><a href="#cb27-55" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Reflex: </span><span class="sc">{</span>avg_p_reflex<span class="sc">}</span><span class="ss">|| Cleaning progress:</span><span class="sc">{</span>avg_actual_dirt_vacuumed_3<span class="op">/</span>avg_need_to_clean_3 <span class="op">*</span><span class="dv">100</span><span class="sc">}</span><span class="ss"> %&quot;</span>)</span>
+<span id="cb27-56"><a href="#cb27-56" aria-hidden="true" tabindex="-1"></a>    <span class="co"># print(avg_need_to_clean_3)</span></span>
+<span id="cb27-57"><a href="#cb27-57" aria-hidden="true" tabindex="-1"></a>    <span class="co"># print(avg_actual_dirt_vacuumed_3)</span></span>
+<span id="cb27-58"><a href="#cb27-58" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="187"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:22:08.407124Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:22:08.358627Z&quot;}">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;N = 5&quot;</span>)</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>Compare_the_performance_1(n<span class="op">=</span><span class="dv">5</span>, p<span class="op">=</span><span class="fl">0.2</span>, max_steps<span class="op">=</span><span class="dv">200</span>, <span class="bu">iter</span><span class="op">=</span><span class="dv">1</span>, verbose<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;-----------------------------------------------------&quot;</span>)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;N = 10&quot;</span>)</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>Compare_the_performance_1(n<span class="op">=</span><span class="dv">10</span>, p<span class="op">=</span><span class="fl">0.2</span>, max_steps<span class="op">=</span><span class="dv">200</span>, <span class="bu">iter</span><span class="op">=</span><span class="dv">1</span>, verbose<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;-----------------------------------------------------&quot;</span>)</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;N = 100&quot;</span>)</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>Compare_the_performance_1(n<span class="op">=</span><span class="dv">100</span>, p<span class="op">=</span><span class="fl">0.2</span>, max_steps<span class="op">=</span><span class="dv">2000</span>, <span class="bu">iter</span><span class="op">=</span><span class="dv">1</span>, verbose<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>N = 5
+Random: 200.0 || Cleaning progress:83.33333333333334 %
+Simple: 126.0 || Cleaning progress:100.0 %
+Reflex: 27.0|| Cleaning progress:100.0 %
+-----------------------------------------------------
+N = 10
+Random: 200.0 || Cleaning progress:47.61904761904761 %
+Simple: 200.0 || Cleaning progress:61.904761904761905 %
+Reflex: 118.0|| Cleaning progress:100.0 %
+-----------------------------------------------------
+N = 100
+Random: 2000.0 || Cleaning progress:2.798600699650175 %
+Simple: 2000.0 || Cleaning progress:5.297351324337831 %
+Reflex: 2032.0|| Cleaning progress:97.07661290322581 %
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Fill out the following table with the average performance measure for
+100 random runs (you may also create this table with code):</p>
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 21%" />
+<col style="width: 25%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Size</th>
+<th>Randomized Agent</th>
+<th>Simple Reflex Agent</th>
+<th>Model-based Reflex Agent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5x5</td>
+<td>200</td>
+<td>126</td>
+<td>27</td>
+</tr>
+<tr class="even">
+<td>10x10</td>
+<td>200</td>
+<td>200</td>
+<td>118</td>
+</tr>
+<tr class="odd">
+<td>100x100</td>
+<td>2000</td>
+<td>2000</td>
+<td>2032</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="mức-độ-làm-sạch-căn-phòng-có-giới-hạn-max_step">Mức độ làm sạch
+căn phòng (có giới hạn max_step)</h2>
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 21%" />
+<col style="width: 25%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Size</th>
+<th>Randomized Agent</th>
+<th>Simple Reflex Agent</th>
+<th>Model-based Reflex Agent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5x5</td>
+<td>83.33 %</td>
+<td>100 %</td>
+<td>100 %</td>
+</tr>
+<tr class="even">
+<td>10x10</td>
+<td>47.61 %</td>
+<td>61.90 %</td>
+<td>100 %</td>
+</tr>
+<tr class="odd">
+<td>100x100</td>
+<td>2.79 %</td>
+<td>5.29 %</td>
+<td>97.07 %</td>
+</tr>
+</tbody>
+</table>
+<p>Add charts to compare the performance of the different agents.</p>
+</div>
+<div class="cell code" data-execution_count="180"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.381236Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.378041Z&quot;}">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your graphs and discussion of the results goes herez</span></span></code></pre></div>
+</div>
+<section id="task-5-robustness-of-the-agent-implementations-10-points"
+class="cell markdown">
+<h2>Task 5: Robustness of the agent implementations [10 Points]</h2>
+<p>Describe how <strong>your agent implementations</strong> will
+perform</p>
+<ul>
+<li>if it is put into a rectangular room with unknown size,</li>
+<li>if the cleaning area can have an irregular shape (e.g., a hallway
+connecting two rooms), or</li>
+<li>if the room contains obstacles (i.e., squares that it cannot pass
+through and trigger the bumper sensors).</li>
+<li>if the dirt sensor is not perfect and gives 10% of the time a wrong
+reading (clean when it is dirty or dirty when it is clean).</li>
+<li>if the bumper sensor is not perfect and 10% of the time does not
+report a wall when there is one.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="181"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:54.390468Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:54.381236Z&quot;}">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Answers goes here</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="co">1. Nếu agent được đặt vào căn phòng hình chữ nhật không biết kích thước:</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="co">--&gt; Tìm đến góc rồi di chuyển ngang dọc để hút bụi</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a><span class="co">2. Nếu khu vực vệ sinh có hình dáng bất thường:</span></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a><span class="co">--&gt; Cách tốt nhất: có thêm cảm biến quét kích thước từng căn phòng, khi đó có thể dọn dẹp từng căn phòng và hành lang.</span></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a><span class="co">3. Nếu có vật cản</span></span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a><span class="co">--&gt; Men theo vật cản n bước, sau đó đi ngược lại n bước</span></span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a><span class="co">4. Nếu cảm biến bụi bẩn không hoàn hảo và cho kết quả sai trong 10% trường hợp (sạch khi bẩn hoặc bẩn khi sạch).</span></span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a><span class="co">--&gt; Thêm 1 bước kiểm tra lại căn phòng sau khi dọn dẹp </span></span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a><span class="co">4. Nếu cảm biến cản không hoàn hảo và trong 10% trường hợp không báo cáo có tường khi có tường.</span></span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a><span class="co">--&gt; Khi đó, agent không di chuyển thẳng tiếp được, báo cáo đụng tường và đổi hướng</span></span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="181">
+<pre><code>&#39;\n1. Nếu agent được đặt vào căn phòng hình chữ nhật không biết kích thước:\n--&gt; Tìm đến góc rồi di chuyển ngang dọc để hút bụi\n\n2. Nếu khu vực vệ sinh có hình dáng bất thường:\n--&gt; Cách tốt nhất: có thêm cảm biến quét kích thước từng căn phòng, khi đó có thể dọn dẹp từng căn phòng và hành lang.\n\n3. Nếu có vật cản\n--&gt; Men theo vật cản n bước, sau đó đi ngược lại n bước\n\n4. Nếu cảm biến bụi bẩn không hoàn hảo và cho kết quả sai trong 10% trường hợp (sạch khi bẩn hoặc bẩn khi sạch).\n--&gt; Thêm 1 bước kiểm tra lại căn phòng sau khi dọn dẹp \n\n4. Nếu cảm biến cản không hoàn hảo và trong 10% trường hợp không báo cáo có tường khi có tường.\n--&gt; Khi đó, agent không di chuyển thẳng tiếp được, báo cáo đụng tường và đổi hướng\n\n&#39;</code></pre>
+</div>
+</div>
+<section id="advanced-task-imperfect-dirt-sensor" class="cell markdown">
+<h2>Advanced task: Imperfect Dirt Sensor</h2>
+<ul>
+<li><strong>Graduate students</strong> need to complete this task [10
+points]</li>
+<li><strong>Undergraduate students</strong> can attempt this as a bonus
+task [max +5 bonus points].</li>
+</ul>
+<ol>
+<li><p>Change your simulation environment to run experiments for the
+following problem: The dirt sensor has a 10% chance of giving the wrong
+reading. Perform experiments to observe how this changes the performance
+of the three implementations. Your model-based reflex agent is likely
+not able to clean the whole room, so you need to measure performance
+differently as a tradeoff between energy cost and number of uncleaned
+squares.</p></li>
+<li><p>Design an implement a solution for your model-based agent that
+will clean better. Show the improvement with experiments.</p></li>
+</ol>
+</section>
+<div class="cell code" data-execution_count="198"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:27:53.935004Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:27:53.911348Z&quot;}">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your code and discussion goes here</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Model-based Reflex Agent</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Model-based Reflex Agent</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Agent_advance:</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>,</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>                 max_steps<span class="op">=</span><span class="dv">20</span>,</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>                 room <span class="op">=</span> setup_room(<span class="dv">5</span>, <span class="fl">0.2</span>),</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>                 station_location<span class="op">=</span>[<span class="dv">0</span>, <span class="dv">0</span>],</span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>                 verbose<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>                 percent_error <span class="op">=</span> <span class="fl">0.0</span>):</span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.state <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.n <span class="op">=</span> <span class="bu">len</span>(room)   <span class="co"># cạnh hình vuông</span></span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.actions_can_choice <span class="op">=</span> [<span class="st">&quot;north&quot;</span>, <span class="st">&quot;east&quot;</span>, <span class="st">&quot;south&quot;</span>, <span class="st">&quot;west&quot;</span>, <span class="st">&quot;suck&quot;</span> , <span class="st">&quot;stand still&quot;</span>]</span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.position_x <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.position_y <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.steps <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.max_steps <span class="op">=</span> max_steps</span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.station_location <span class="op">=</span> station_location</span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.room <span class="op">=</span> room</span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.need_to_clean <span class="op">=</span> <span class="va">self</span>.fc_need_to_clean()</span>
+<span id="cb33-26"><a href="#cb33-26" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.actual_dirt_vacuumed <span class="op">=</span> <span class="va">self</span>.need_to_clean</span>
+<span id="cb33-27"><a href="#cb33-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-28"><a href="#cb33-28" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.verbose <span class="op">=</span> verbose</span>
+<span id="cb33-29"><a href="#cb33-29" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.percent_error <span class="op">=</span> percent_error</span>
+<span id="cb33-30"><a href="#cb33-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-31"><a href="#cb33-31" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> fc_need_to_clean(<span class="va">self</span>):</span>
+<span id="cb33-32"><a href="#cb33-32" aria-hidden="true" tabindex="-1"></a>        need_to_clean <span class="op">=</span><span class="dv">0</span></span>
+<span id="cb33-33"><a href="#cb33-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.n):</span>
+<span id="cb33-34"><a href="#cb33-34" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.n):</span>
+<span id="cb33-35"><a href="#cb33-35" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> room[i, j] <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb33-36"><a href="#cb33-36" aria-hidden="true" tabindex="-1"></a>                    need_to_clean <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb33-37"><a href="#cb33-37" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> need_to_clean</span>
+<span id="cb33-38"><a href="#cb33-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-39"><a href="#cb33-39" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> update_agent_location(<span class="va">self</span>, x, y):</span>
+<span id="cb33-40"><a href="#cb33-40" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.position_x <span class="op">=</span> x</span>
+<span id="cb33-41"><a href="#cb33-41" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.position_y <span class="op">=</span> y</span>
+<span id="cb33-42"><a href="#cb33-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-43"><a href="#cb33-43" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> moving (<span class="va">self</span>, direction):</span>
+<span id="cb33-44"><a href="#cb33-44" aria-hidden="true" tabindex="-1"></a>        feedback <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb33-45"><a href="#cb33-45" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> direction <span class="op">==</span> <span class="st">&quot;north&quot;</span>:</span>
+<span id="cb33-46"><a href="#cb33-46" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.position_x <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb33-47"><a href="#cb33-47" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.position_x <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb33-48"><a href="#cb33-48" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb33-49"><a href="#cb33-49" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb33-50"><a href="#cb33-50" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the North wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb33-51"><a href="#cb33-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-52"><a href="#cb33-52" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> direction <span class="op">==</span> <span class="st">&quot;east&quot;</span>:</span>
+<span id="cb33-53"><a href="#cb33-53" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.position_y <span class="op">&lt;</span> <span class="va">self</span>.n <span class="op">-</span> <span class="dv">1</span>:</span>
+<span id="cb33-54"><a href="#cb33-54" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.position_y <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb33-55"><a href="#cb33-55" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb33-56"><a href="#cb33-56" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb33-57"><a href="#cb33-57" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the East wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb33-58"><a href="#cb33-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-59"><a href="#cb33-59" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> direction <span class="op">==</span> <span class="st">&quot;south&quot;</span>:</span>
+<span id="cb33-60"><a href="#cb33-60" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.position_x <span class="op">&lt;</span> <span class="va">self</span>.n<span class="op">-</span><span class="dv">1</span>:</span>
+<span id="cb33-61"><a href="#cb33-61" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.position_x <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb33-62"><a href="#cb33-62" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb33-63"><a href="#cb33-63" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb33-64"><a href="#cb33-64" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the South wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb33-65"><a href="#cb33-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-66"><a href="#cb33-66" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> direction <span class="op">==</span> <span class="st">&quot;west&quot;</span>:</span>
+<span id="cb33-67"><a href="#cb33-67" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.position_y <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb33-68"><a href="#cb33-68" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.position_y <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb33-69"><a href="#cb33-69" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb33-70"><a href="#cb33-70" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb33-71"><a href="#cb33-71" aria-hidden="true" tabindex="-1"></a>                feedback <span class="op">=</span> <span class="st">&quot;Hit the West wall (no movement) --&gt; change direction&quot;</span></span>
+<span id="cb33-72"><a href="#cb33-72" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> direction <span class="op">==</span> <span class="st">&quot;stand still&quot;</span>:</span>
+<span id="cb33-73"><a href="#cb33-73" aria-hidden="true" tabindex="-1"></a>            feedback <span class="op">=</span> <span class="st">&quot;All roads are blocked --&gt; Stand still&quot;</span></span>
+<span id="cb33-74"><a href="#cb33-74" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb33-75"><a href="#cb33-75" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-76"><a href="#cb33-76" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;- Current position:[</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_x<span class="sc">}</span><span class="ss">][</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_y<span class="sc">}</span><span class="ss">]&quot;</span>)</span>
+<span id="cb33-77"><a href="#cb33-77" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> feedback<span class="op">!=</span><span class="st">&quot;&quot;</span> <span class="kw">and</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-78"><a href="#cb33-78" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(feedback, <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb33-79"><a href="#cb33-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-80"><a href="#cb33-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-81"><a href="#cb33-81" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> go_to_the_station(<span class="va">self</span>):</span>
+<span id="cb33-82"><a href="#cb33-82" aria-hidden="true" tabindex="-1"></a>        <span class="co"># simple: Tìm đường đi đến góc [0][0]</span></span>
+<span id="cb33-83"><a href="#cb33-83" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-84"><a href="#cb33-84" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;--&gt; Go to station location&quot;</span>)</span>
+<span id="cb33-85"><a href="#cb33-85" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> <span class="va">self</span>.position_x<span class="op">&gt;</span><span class="dv">0</span> :</span>
+<span id="cb33-86"><a href="#cb33-86" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.position_x <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb33-87"><a href="#cb33-87" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.steps <span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb33-88"><a href="#cb33-88" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> <span class="va">self</span>.position_y<span class="op">&gt;</span><span class="dv">0</span> :</span>
+<span id="cb33-89"><a href="#cb33-89" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.steps <span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb33-90"><a href="#cb33-90" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.position_y <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb33-91"><a href="#cb33-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-92"><a href="#cb33-92" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-93"><a href="#cb33-93" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;- Current position:[</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_x<span class="sc">}</span><span class="ss">][</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_y<span class="sc">}</span><span class="ss">]&quot;</span>)</span>
+<span id="cb33-94"><a href="#cb33-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-95"><a href="#cb33-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-96"><a href="#cb33-96" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> action_suck(<span class="va">self</span>):</span>
+<span id="cb33-97"><a href="#cb33-97" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb33-98"><a href="#cb33-98" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> room[<span class="va">self</span>.position_x, <span class="va">self</span>.position_y] <span class="op">==</span> <span class="fl">1.</span>:</span>
+<span id="cb33-99"><a href="#cb33-99" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.actual_dirt_vacuumed <span class="op">-=</span> <span class="dv">1</span></span>
+<span id="cb33-100"><a href="#cb33-100" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.room[<span class="va">self</span>.position_x, <span class="va">self</span>.position_y] <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb33-101"><a href="#cb33-101" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-102"><a href="#cb33-102" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;--&gt; SUCK&quot;</span>)</span>
+<span id="cb33-103"><a href="#cb33-103" aria-hidden="true" tabindex="-1"></a>    <span class="co"># def change_direction(self, direction):</span></span>
+<span id="cb33-104"><a href="#cb33-104" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> check_dirt(<span class="va">self</span>, i, j):</span>
+<span id="cb33-105"><a href="#cb33-105" aria-hidden="true" tabindex="-1"></a>        k <span class="op">=</span> np.random.randint(<span class="dv">10</span>)</span>
+<span id="cb33-106"><a href="#cb33-106" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> k <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb33-107"><a href="#cb33-107" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="va">self</span>.room[i][j]</span>
+<span id="cb33-108"><a href="#cb33-108" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb33-109"><a href="#cb33-109" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> np.<span class="bu">abs</span>(<span class="va">self</span>.room[i][j] <span class="op">-</span> <span class="dv">1</span>)</span>
+<span id="cb33-110"><a href="#cb33-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-111"><a href="#cb33-111" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> sense_majority(<span class="va">self</span>, i, j, k<span class="op">=</span><span class="dv">3</span>):</span>
+<span id="cb33-112"><a href="#cb33-112" aria-hidden="true" tabindex="-1"></a>        votes <span class="op">=</span> <span class="bu">sum</span>(<span class="va">self</span>.check_dirt(i, j) <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(k))</span>
+<span id="cb33-113"><a href="#cb33-113" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> votes <span class="op">&gt;</span> k <span class="op">//</span> <span class="dv">2</span></span>
+<span id="cb33-114"><a href="#cb33-114" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-115"><a href="#cb33-115" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> whole_house_vacuuming(<span class="va">self</span>):</span>
+<span id="cb33-116"><a href="#cb33-116" aria-hidden="true" tabindex="-1"></a>        <span class="co"># self.steps = 0</span></span>
+<span id="cb33-117"><a href="#cb33-117" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-118"><a href="#cb33-118" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;- Current position:[</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_x<span class="sc">}</span><span class="ss">][</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>position_y<span class="sc">}</span><span class="ss">]&quot;</span>)</span>
+<span id="cb33-119"><a href="#cb33-119" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.position_x <span class="op">==</span> <span class="dv">0</span> <span class="kw">and</span> <span class="va">self</span>.position_y <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb33-120"><a href="#cb33-120" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-121"><a href="#cb33-121" aria-hidden="true" tabindex="-1"></a>                <span class="bu">print</span>(<span class="st">&quot;Already at the charging station&quot;</span>)</span>
+<span id="cb33-122"><a href="#cb33-122" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb33-123"><a href="#cb33-123" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-124"><a href="#cb33-124" aria-hidden="true" tabindex="-1"></a>                <span class="bu">print</span>(<span class="st">&quot;Not at the charging station yet.&quot;</span>)</span>
+<span id="cb33-125"><a href="#cb33-125" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.go_to_the_station()</span>
+<span id="cb33-126"><a href="#cb33-126" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-127"><a href="#cb33-127" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;==&gt; Start vacuuming the whole room.&quot;</span>)</span>
+<span id="cb33-128"><a href="#cb33-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-129"><a href="#cb33-129" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.n<span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb33-130"><a href="#cb33-130" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.n<span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb33-131"><a href="#cb33-131" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="va">self</span>.percent_error <span class="op">!=</span> <span class="fl">0.0</span>:</span>
+<span id="cb33-132"><a href="#cb33-132" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.sense_majority(<span class="va">self</span>.position_x, <span class="va">self</span>.position_y):</span>
+<span id="cb33-133"><a href="#cb33-133" aria-hidden="true" tabindex="-1"></a>                        <span class="va">self</span>.action_suck()</span>
+<span id="cb33-134"><a href="#cb33-134" aria-hidden="true" tabindex="-1"></a>                <span class="cf">elif</span> <span class="va">self</span>.room[<span class="va">self</span>.position_x][<span class="va">self</span>.position_y] <span class="op">==</span> <span class="fl">1.</span>:</span>
+<span id="cb33-135"><a href="#cb33-135" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.action_suck()</span>
+<span id="cb33-136"><a href="#cb33-136" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> i <span class="op">%</span> <span class="dv">2</span> <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb33-137"><a href="#cb33-137" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-138"><a href="#cb33-138" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="st">&quot;move east&quot;</span>)</span>
+<span id="cb33-139"><a href="#cb33-139" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.moving(<span class="st">&quot;east&quot;</span>)</span>
+<span id="cb33-140"><a href="#cb33-140" aria-hidden="true" tabindex="-1"></a>                <span class="cf">else</span>:</span>
+<span id="cb33-141"><a href="#cb33-141" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-142"><a href="#cb33-142" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="st">&quot;move west&quot;</span>)</span>
+<span id="cb33-143"><a href="#cb33-143" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.moving(<span class="st">&quot;west&quot;</span>)</span>
+<span id="cb33-144"><a href="#cb33-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-145"><a href="#cb33-145" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> i<span class="op">!=</span><span class="va">self</span>.n<span class="op">-</span><span class="dv">1</span>:</span>
+<span id="cb33-146"><a href="#cb33-146" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-147"><a href="#cb33-147" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="st">&quot;move south&quot;</span>)</span>
+<span id="cb33-148"><a href="#cb33-148" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.moving(<span class="st">&quot;south&quot;</span>)</span>
+<span id="cb33-149"><a href="#cb33-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-150"><a href="#cb33-150" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="va">self</span>.steps <span class="op">&gt;=</span> <span class="va">self</span>.max_steps:</span>
+<span id="cb33-151"><a href="#cb33-151" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-152"><a href="#cb33-152" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="st">&quot;Out of energy --&gt; stop vacuuming&quot;</span>)</span>
+<span id="cb33-153"><a href="#cb33-153" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span></span>
+<span id="cb33-154"><a href="#cb33-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-155"><a href="#cb33-155" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-156"><a href="#cb33-156" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;==&gt; End vacuuming the whole room.&quot;</span>)</span>
+<span id="cb33-157"><a href="#cb33-157" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.verbose:</span>
+<span id="cb33-158"><a href="#cb33-158" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;The performance measure: &quot;</span>, <span class="va">self</span>.steps)</span>
+<span id="cb33-159"><a href="#cb33-159" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<section id="advance-task-compare-4-agent" class="cell markdown">
+<h2>Advance task: Compare 4 agent</h2>
+<p>2 agent đầu tiên là hành động random nên ko cần tỷ lệ sai, áp dụng tỷ
+lệ cảm biến sai cho Reflex và advace agent</p>
+</section>
+<div class="cell code" data-execution_count="1"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:33:44.711978Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:33:44.702996Z&quot;}">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your code goes here</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Lấy max_steps cho Randomized Agent | Simple Reflex Agent là: 200</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> Compare_the_performance(n<span class="op">=</span><span class="dv">5</span>, p<span class="op">=</span><span class="fl">0.2</span>, max_steps<span class="op">=</span><span class="dv">200</span>, <span class="bu">iter</span><span class="op">=</span><span class="dv">100</span>, verbose<span class="op">=</span><span class="va">False</span>):</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>    avg_p_random <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>    avg_p_simple <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>    avg_p_reflex <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>    avg_p_advance <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_1, avg_actual_dirt_vacuumed_1 <span class="op">=</span> <span class="dv">1</span>, <span class="dv">1</span></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_2, avg_actual_dirt_vacuumed_2 <span class="op">=</span> <span class="dv">1</span>, <span class="dv">1</span></span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_3, avg_actual_dirt_vacuumed_3 <span class="op">=</span> <span class="dv">1</span>, <span class="dv">1</span></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_4, avg_actual_dirt_vacuumed_4 <span class="op">=</span> <span class="dv">1</span>, <span class="dv">1</span></span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">iter</span>):</span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>        p_random, need_to_clean_1, actual_dirt_vacuumed_1 <span class="op">=</span> real_environment(agent_function<span class="op">=</span>simple_randomized_agent,</span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a>                                                                             max_steps <span class="op">=</span> max_steps,</span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a>                                                                             n <span class="op">=</span> n,</span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a>                                                                             p<span class="op">=</span>p,</span>
+<span id="cb34-17"><a href="#cb34-17" aria-hidden="true" tabindex="-1"></a>                                                                             verbose<span class="op">=</span>verbose)</span>
+<span id="cb34-18"><a href="#cb34-18" aria-hidden="true" tabindex="-1"></a>        avg_p_random<span class="op">+=</span>p_random</span>
+<span id="cb34-19"><a href="#cb34-19" aria-hidden="true" tabindex="-1"></a>        avg_need_to_clean_1 <span class="op">+=</span>need_to_clean_1</span>
+<span id="cb34-20"><a href="#cb34-20" aria-hidden="true" tabindex="-1"></a>        avg_actual_dirt_vacuumed_1<span class="op">+=</span> actual_dirt_vacuumed_1</span>
+<span id="cb34-21"><a href="#cb34-21" aria-hidden="true" tabindex="-1"></a>        <span class="co">#####################################################################</span></span>
+<span id="cb34-22"><a href="#cb34-22" aria-hidden="true" tabindex="-1"></a>        p_simple, need_to_clean_2, actual_dirt_vacuumed_2 <span class="op">=</span> real_environment(agent_function<span class="op">=</span>simple_reflex_agent,</span>
+<span id="cb34-23"><a href="#cb34-23" aria-hidden="true" tabindex="-1"></a>                                                                             max_steps <span class="op">=</span> max_steps,</span>
+<span id="cb34-24"><a href="#cb34-24" aria-hidden="true" tabindex="-1"></a>                                                                             n <span class="op">=</span> n,</span>
+<span id="cb34-25"><a href="#cb34-25" aria-hidden="true" tabindex="-1"></a>                                                                             p <span class="op">=</span> p,</span>
+<span id="cb34-26"><a href="#cb34-26" aria-hidden="true" tabindex="-1"></a>                                                                             verbose<span class="op">=</span>verbose)</span>
+<span id="cb34-27"><a href="#cb34-27" aria-hidden="true" tabindex="-1"></a>        avg_p_simple<span class="op">+=</span>p_simple</span>
+<span id="cb34-28"><a href="#cb34-28" aria-hidden="true" tabindex="-1"></a>        avg_need_to_clean_2 <span class="op">+=</span> need_to_clean_2</span>
+<span id="cb34-29"><a href="#cb34-29" aria-hidden="true" tabindex="-1"></a>        avg_actual_dirt_vacuumed_2 <span class="op">+=</span> actual_dirt_vacuumed_2</span>
+<span id="cb34-30"><a href="#cb34-30" aria-hidden="true" tabindex="-1"></a>        <span class="co">#####################################################################</span></span>
+<span id="cb34-31"><a href="#cb34-31" aria-hidden="true" tabindex="-1"></a>        room <span class="op">=</span> setup_room(n, p)</span>
+<span id="cb34-32"><a href="#cb34-32" aria-hidden="true" tabindex="-1"></a>        agent_1 <span class="op">=</span> Agent(max_steps<span class="op">=</span>max_steps,</span>
+<span id="cb34-33"><a href="#cb34-33" aria-hidden="true" tabindex="-1"></a>                        room <span class="op">=</span> room,</span>
+<span id="cb34-34"><a href="#cb34-34" aria-hidden="true" tabindex="-1"></a>                        station_location<span class="op">=</span>[<span class="dv">0</span>,<span class="dv">0</span>],</span>
+<span id="cb34-35"><a href="#cb34-35" aria-hidden="true" tabindex="-1"></a>                        verbose<span class="op">=</span>verbose,</span>
+<span id="cb34-36"><a href="#cb34-36" aria-hidden="true" tabindex="-1"></a>                        percent_error<span class="op">=</span><span class="fl">10.0</span>)</span>
+<span id="cb34-37"><a href="#cb34-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-38"><a href="#cb34-38" aria-hidden="true" tabindex="-1"></a>        agent_1.update_agent_location(x<span class="op">=</span>np.random.randint(<span class="dv">0</span>, n), y<span class="op">=</span>np.random.randint(<span class="dv">0</span>, n))</span>
+<span id="cb34-39"><a href="#cb34-39" aria-hidden="true" tabindex="-1"></a>        agent_1.whole_house_vacuuming()</span>
+<span id="cb34-40"><a href="#cb34-40" aria-hidden="true" tabindex="-1"></a>        avg_p_reflex<span class="op">+=</span>agent_1.steps</span>
+<span id="cb34-41"><a href="#cb34-41" aria-hidden="true" tabindex="-1"></a>        avg_need_to_clean_3 <span class="op">+=</span> agent_1.need_to_clean</span>
+<span id="cb34-42"><a href="#cb34-42" aria-hidden="true" tabindex="-1"></a>        avg_actual_dirt_vacuumed_3 <span class="op">+=</span> agent_1.actual_dirt_vacuumed</span>
+<span id="cb34-43"><a href="#cb34-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-44"><a href="#cb34-44" aria-hidden="true" tabindex="-1"></a>        agent_ad <span class="op">=</span> Agent_advance(max_steps<span class="op">=</span>max_steps,</span>
+<span id="cb34-45"><a href="#cb34-45" aria-hidden="true" tabindex="-1"></a>                        room <span class="op">=</span> room,</span>
+<span id="cb34-46"><a href="#cb34-46" aria-hidden="true" tabindex="-1"></a>                        station_location<span class="op">=</span>[<span class="dv">0</span>,<span class="dv">0</span>],</span>
+<span id="cb34-47"><a href="#cb34-47" aria-hidden="true" tabindex="-1"></a>                        verbose<span class="op">=</span>verbose)</span>
+<span id="cb34-48"><a href="#cb34-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-49"><a href="#cb34-49" aria-hidden="true" tabindex="-1"></a>        agent_ad.update_agent_location(x<span class="op">=</span>np.random.randint(<span class="dv">0</span>, n), y<span class="op">=</span>np.random.randint(<span class="dv">0</span>, n))</span>
+<span id="cb34-50"><a href="#cb34-50" aria-hidden="true" tabindex="-1"></a>        agent_ad.whole_house_vacuuming()</span>
+<span id="cb34-51"><a href="#cb34-51" aria-hidden="true" tabindex="-1"></a>        avg_p_advance<span class="op">+=</span>agent_ad.steps</span>
+<span id="cb34-52"><a href="#cb34-52" aria-hidden="true" tabindex="-1"></a>        avg_need_to_clean_4 <span class="op">+=</span> agent_ad.need_to_clean</span>
+<span id="cb34-53"><a href="#cb34-53" aria-hidden="true" tabindex="-1"></a>        avg_actual_dirt_vacuumed_4 <span class="op">+=</span> agent_ad.actual_dirt_vacuumed</span>
+<span id="cb34-54"><a href="#cb34-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-55"><a href="#cb34-55" aria-hidden="true" tabindex="-1"></a>    avg_p_random <span class="op">=</span> avg_p_random<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-56"><a href="#cb34-56" aria-hidden="true" tabindex="-1"></a>    avg_p_simple <span class="op">=</span> avg_p_simple<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-57"><a href="#cb34-57" aria-hidden="true" tabindex="-1"></a>    avg_p_reflex <span class="op">=</span> avg_p_reflex<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-58"><a href="#cb34-58" aria-hidden="true" tabindex="-1"></a>    avg_p_advance <span class="op">=</span> avg_p_advance<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-59"><a href="#cb34-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-60"><a href="#cb34-60" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_1 <span class="op">=</span> avg_need_to_clean_1<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-61"><a href="#cb34-61" aria-hidden="true" tabindex="-1"></a>    avg_actual_dirt_vacuumed_1 <span class="op">=</span> avg_actual_dirt_vacuumed_1<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-62"><a href="#cb34-62" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_2 <span class="op">=</span> avg_need_to_clean_2<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-63"><a href="#cb34-63" aria-hidden="true" tabindex="-1"></a>    avg_actual_dirt_vacuumed_2 <span class="op">=</span> avg_actual_dirt_vacuumed_2<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-64"><a href="#cb34-64" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_3 <span class="op">=</span> avg_need_to_clean_3<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-65"><a href="#cb34-65" aria-hidden="true" tabindex="-1"></a>    avg_actual_dirt_vacuumed_3 <span class="op">=</span> avg_actual_dirt_vacuumed_3<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-66"><a href="#cb34-66" aria-hidden="true" tabindex="-1"></a>    avg_need_to_clean_4 <span class="op">=</span> avg_need_to_clean_4<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-67"><a href="#cb34-67" aria-hidden="true" tabindex="-1"></a>    avg_actual_dirt_vacuumed_4 <span class="op">=</span> avg_actual_dirt_vacuumed_4<span class="op">/</span><span class="bu">iter</span></span>
+<span id="cb34-68"><a href="#cb34-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-69"><a href="#cb34-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-70"><a href="#cb34-70" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Random: </span><span class="sc">{</span>avg_p_random<span class="sc">}</span><span class="ss"> || Cleaning progress:</span><span class="sc">{</span>avg_actual_dirt_vacuumed_1<span class="op">/</span>avg_need_to_clean_1 <span class="op">*</span> <span class="dv">100</span><span class="sc">}</span><span class="ss"> %&quot;</span>)</span>
+<span id="cb34-71"><a href="#cb34-71" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Simple: </span><span class="sc">{</span>avg_p_simple<span class="sc">}</span><span class="ss"> || Cleaning progress:</span><span class="sc">{</span>avg_actual_dirt_vacuumed_2<span class="op">/</span>avg_need_to_clean_2 <span class="op">*</span><span class="dv">100</span><span class="sc">}</span><span class="ss"> %&quot;</span>)</span>
+<span id="cb34-72"><a href="#cb34-72" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Reflex: </span><span class="sc">{</span>avg_p_reflex<span class="sc">}</span><span class="ss">|| Cleaning progress:</span><span class="sc">{</span>avg_actual_dirt_vacuumed_3<span class="op">/</span>avg_need_to_clean_3 <span class="op">*</span><span class="dv">100</span><span class="sc">}</span><span class="ss"> %&quot;</span>)</span>
+<span id="cb34-73"><a href="#cb34-73" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Advance: </span><span class="sc">{</span>avg_p_advance<span class="sc">}</span><span class="ss">|| Cleaning progress:</span><span class="sc">{</span>avg_actual_dirt_vacuumed_4<span class="op">/</span>avg_need_to_clean_4 <span class="op">*</span><span class="dv">100</span><span class="sc">}</span><span class="ss"> %&quot;</span>)</span>
+<span id="cb34-74"><a href="#cb34-74" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="200"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:27:59.534480Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:27:55.355326Z&quot;}">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;N = 5&quot;</span>)</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>Compare_the_performance(n<span class="op">=</span><span class="dv">5</span>, p<span class="op">=</span><span class="fl">0.2</span>, max_steps<span class="op">=</span><span class="dv">200</span>, <span class="bu">iter</span><span class="op">=</span><span class="dv">100</span>, verbose<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;-----------------------------------------------------&quot;</span>)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;N = 10&quot;</span>)</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>Compare_the_performance(n<span class="op">=</span><span class="dv">10</span>, p<span class="op">=</span><span class="fl">0.2</span>, max_steps<span class="op">=</span><span class="dv">200</span>, <span class="bu">iter</span><span class="op">=</span><span class="dv">100</span>, verbose<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;-----------------------------------------------------&quot;</span>)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;N = 100&quot;</span>)</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>Compare_the_performance(n<span class="op">=</span><span class="dv">100</span>, p<span class="op">=</span><span class="fl">0.2</span>, max_steps<span class="op">=</span><span class="dv">2000</span>, <span class="bu">iter</span><span class="op">=</span><span class="dv">100</span>, verbose<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>N = 5
+Random: 186.91 || Cleaning progress:74.05189620758483 %
+Simple: 99.1 || Cleaning progress:99.00199600798403 %
+Reflex: 35.75|| Cleaning progress:55.489021956087825 %
+Advace: 26.88|| Cleaning progress:89.62075848303394 %
+-----------------------------------------------------
+N = 10
+Random: 200.0 || Cleaning progress:24.437781109445275 %
+Simple: 200.0 || Cleaning progress:55.722138930534726 %
+Reflex: 160.17|| Cleaning progress:45.03435352904434 %
+Advace: 113.97|| Cleaning progress:85.38413491567769 %
+-----------------------------------------------------
+N = 100
+Random: 2000.0 || Cleaning progress:2.28198859005705 %
+Simple: 2000.0 || Cleaning progress:5.703471482642587 %
+Reflex: 2078.35|| Cleaning progress:93.54869617399811 %
+Advace: 2060.32|| Cleaning progress:97.41806647470258 %
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Fill out the following table with the average performance measure for
+100 random runs (you may also create this table with code):</p>
+<table>
+<thead>
+<tr class="header">
+<th>Size</th>
+<th>Model-based Reflex Agent</th>
+<th>Model advance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5x5</td>
+<td>35.75</td>
+<td>26.88</td>
+</tr>
+<tr class="even">
+<td>10x10</td>
+<td>160</td>
+<td>113</td>
+</tr>
+<tr class="odd">
+<td>100x100</td>
+<td>2078</td>
+<td>2060</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Mức độ làm sạch căn phòng (có giới hạn max_step)</p>
+<table>
+<thead>
+<tr class="header">
+<th>Size</th>
+<th>Model-based Reflex Agent</th>
+<th>Model advance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5x5</td>
+<td>55.48</td>
+<td>89.62</td>
+</tr>
+<tr class="even">
+<td>10x10</td>
+<td>45.03</td>
+<td>85.38</td>
+</tr>
+<tr class="odd">
+<td>100x100</td>
+<td>93.54</td>
+<td>97.41</td>
+</tr>
+</tbody>
+</table>
+<p>Add charts to compare the performance of the different agents.</p>
+</div>
+<section id="more-advanced-implementation-not-for-credit"
+class="cell markdown">
+<h2>More Advanced Implementation (not for credit)</h2>
+<p>If the assignment was to easy for yuo then you can think about the
+following problems. These problems are challenging and not part of this
+assignment. We will learn implementation strategies and algorithms
+useful for these tasks during the rest of the semester.</p>
+<ul>
+<li><p><strong>Obstacles:</strong> Change your simulation environment to
+run experiments for the following problem: Add random obstacle squares
+that also trigger the bumper sensor. The agent does not know where the
+obstacles are. Perform experiments to observe how this changes the
+performance of the three implementations. Describe what would need to be
+done to perform better with obstacles. Add code if you can.</p></li>
+<li><p><strong>Agent for and environment with obstacles:</strong>
+Implement an agent for an environment where the agent does not know how
+large the environment is (we assume it is rectangular), where it starts
+or where the obstacles are. An option would be to always move to the
+closest unchecked/uncleaned square (note that this is actually
+depth-first search).</p></li>
+<li><p><strong>Utility-based agent:</strong> Change the environment for
+a <span class="math inline">5 × 5</span> room, so each square has a
+fixed probability of getting dirty again. For the implementation, we
+give the environment a 2-dimensional array of probabilities. The utility
+of a state is defined as the number of currently clean squares in the
+room. Implement a utility-based agent that maximizes the expected
+utility over one full charge which lasts for 100000 time steps. To do
+this, the agent needs to learn the probabilities with which different
+squares get dirty again. This is very tricky!</p></li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="185"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-10-04T03:21:59.552160Z&quot;,&quot;start_time&quot;:&quot;2025-10-04T03:21:59.547235Z&quot;}">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your ideas/code</span></span></code></pre></div>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"0357a45f23a943f08700f7f9af191ee6","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
