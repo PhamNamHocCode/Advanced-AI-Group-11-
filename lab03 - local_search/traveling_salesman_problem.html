@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>5b7a174bddbe47898fd3c44e35813577</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="solving-the-traveling-salesman-problem-using-local-search"
+class="cell markdown">
+<h1>Solving the Traveling Salesman Problem using Local Search</h1>
+<p>Points: 10</p>
+</section>
+<section id="the-traveling-salesman-problem" class="cell markdown">
+<h2>The <a
+href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Traveling
+Salesman Problem</a></h2>
+<ul>
+<li><p><strong>Goal:</strong> Find the shortest tour visiting each of
+<span class="math inline"><em>n</em></span> cities exactly once and
+returning back to the starting city. Given are pairwise distances
+between cities, where <span
+class="math inline"><em>d</em><sub><em>i</em>, <em>j</em></sub></span>
+is the distance from city <span class="math inline"><em>i</em></span> to
+city <span class="math inline"><em>j</em></span>.</p></li>
+<li><p><strong>State space:</strong> Each state represents a tour. The
+cities are numbered and a tour can be expressed as vector <span
+class="math inline"><em>π</em></span> with the order in which the cities
+are visited (a <a
+href="https://en.wikipedia.org/wiki/Permutation">permutation</a>). That
+is, <span class="math inline"><em>π</em>(1)</span> is the index of the
+first city to visit, <span class="math inline"><em>π</em>(2)</span> the
+index of the second, and so on.</p></li>
+<li><p><strong>Objective function:</strong> Minimize the tour length.
+The optimization problem is to find the optimal tour <span
+class="math inline"><em>π</em><sup>*</sup></span> through the <span
+class="math inline"><em>n</em></span> cities and returning to the
+starting city:</p>
+<blockquote>
+<p>minimize: <span class="math inline">$\mathrm{tourlength}(\pi) =
+d_{\pi(n),\pi(1)} + \sum_{i = 1}^{n-1} d_{\pi(i),\pi(i+1)}$</span></p>
+<p>subject to: <span class="math inline"><em>π</em> is a valid
+permutation vector</span></p>
+</blockquote></li>
+<li><p><strong>Local moves:</strong> Exchange two cities in the
+order.</p></li>
+</ul>
+</section>
+<section id="helper-functions" class="cell markdown">
+<h2>Helper functions</h2>
+</section>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>np.set_printoptions(precision<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.precision&#39;</span>, <span class="dv">2</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># make the results repeatable</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>np.random.seed(<span class="dv">1234</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> random_tour(n):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Create a random tour&quot;&quot;&quot;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    tour <span class="op">=</span> <span class="bu">list</span>(<span class="bu">range</span>(n))</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    random.shuffle(tour)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(tour)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>random_tour(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="38">
+<pre><code>[9, 4, 7, 8, 1, 5, 6, 3, 2, 0]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="39" data-scrolled="true">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.spatial.distance <span class="im">import</span> pdist</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.spatial.distance <span class="im">import</span> squareform</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> random_tsp(n):</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">    Create a random (Euclidean) traveling salesman problem. Choose n points randomly in a 1 x 1 unit square and calulates a </span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co">    pairwise Euclidean distance matrix.</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    pos <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;x&quot;</span> : np.random.uniform(size <span class="op">=</span> n),</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;y&quot;</span> : np.random.uniform(size <span class="op">=</span> n)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    dist <span class="op">=</span> squareform(pdist(pos))</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>({<span class="st">&quot;pos&quot;</span>: pos, <span class="st">&quot;dist&quot;</span>: dist})</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>tsp <span class="op">=</span> random_tsp(<span class="dv">10</span>)</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Positions:</span><span class="ch">\n</span><span class="sc">{</span>tsp[<span class="st">&#39;pos&#39;</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Distance matrix:</span><span class="ch">\n</span><span class="sc">{</span>pd<span class="sc">.</span>DataFrame(tsp[<span class="st">&#39;dist&#39;</span>])<span class="sc">}</span><span class="ss">)&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Positions:
+      x     y
+0  0.19  0.36
+1  0.62  0.50
+2  0.44  0.68
+3  0.79  0.71
+4  0.78  0.37
+5  0.27  0.56
+6  0.28  0.50
+7  0.80  0.01
+8  0.96  0.77
+9  0.88  0.88
+Distance matrix:
+      0     1     2     3     4     5     6     7     8     9
+0  0.00  0.45  0.41  0.69  0.59  0.22  0.17  0.70  0.87  0.86
+1  0.45  0.00  0.26  0.27  0.20  0.35  0.35  0.52  0.43  0.46
+2  0.41  0.26  0.00  0.35  0.46  0.21  0.24  0.76  0.53  0.48
+3  0.69  0.27  0.35  0.00  0.34  0.53  0.55  0.70  0.18  0.19
+4  0.59  0.20  0.46  0.34  0.00  0.54  0.52  0.36  0.44  0.52
+5  0.22  0.35  0.21  0.53  0.54  0.00  0.06  0.76  0.72  0.68
+6  0.17  0.35  0.24  0.55  0.52  0.06  0.00  0.72  0.73  0.71
+7  0.70  0.52  0.76  0.70  0.36  0.76  0.72  0.00  0.77  0.87
+8  0.87  0.43  0.53  0.18  0.44  0.72  0.73  0.77  0.00  0.14
+9  0.86  0.46  0.48  0.19  0.52  0.68  0.71  0.87  0.14  0.00)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tour_length(tsp, tour):</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Caclulate the length of a tour, i.e., the objective function.&quot;&quot;&quot;</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># make sure tour is a Python list (not an array or a numpy.array)</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> <span class="bu">isinstance</span>(tour, <span class="bu">list</span>): tour <span class="op">=</span> tour.tolist()</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    tl <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    dist <span class="op">=</span> tsp[<span class="st">&quot;dist&quot;</span>]</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(tour)<span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>        tl <span class="op">+=</span> dist[tour[i], tour[i<span class="op">+</span><span class="dv">1</span>]]</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    tl <span class="op">+=</span> dist[tour[<span class="op">-</span><span class="dv">1</span>], tour[<span class="dv">0</span>]]</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(tl)</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>tour <span class="op">=</span> random_tour(<span class="dv">10</span>)</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>tour_length(tsp, tour)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="40">
+<pre><code>np.float64(4.9288350648213)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="41" data-scrolled="true">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> show_tsp(tsp, tour<span class="op">=</span><span class="va">None</span>):  </span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;display the traveling salesman problem and a tour.&quot;&quot;&quot;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    pos <span class="op">=</span> tsp[<span class="st">&quot;pos&quot;</span>]</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    plt.scatter(pos[<span class="st">&quot;x&quot;</span>], pos[<span class="st">&quot;y&quot;</span>])</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> tour <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>        <span class="co"># make sure tour is a Python list (not an array or a numpy.array)</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> <span class="bu">isinstance</span>(tour, <span class="bu">list</span>): </span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>            tour <span class="op">=</span> tour.tolist()</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Tour length: </span><span class="sc">{</span><span class="bu">round</span>(tour_length(tsp, tour), <span class="dv">2</span>)<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>        pos_ <span class="op">=</span> pos.reindex(tour)</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>        pos_ <span class="op">=</span> pd.concat([pos_, pos_.head(<span class="dv">1</span>)])   <span class="co"># ✅ dùng concat thay vì append</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>        plt.plot(pos_[<span class="st">&quot;x&quot;</span>], pos_[<span class="st">&quot;y&quot;</span>])</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+</div>
+<section id="use-r-to-find-a-solution" class="cell markdown">
+<h2>Use R to find a solution</h2>
+<p>Load rpy2, make sure the R <a
+href="https://CRAN.R-project.org/package=TSP">TSP package</a> is
+installed and prepare the distance matrix.</p>
+</section>
+<div class="cell code" data-execution_count="42">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># %load_ext rpy2.ipython</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># %R if(!&quot;TSP&quot; %in% rownames(installed.packages())) install.packages(&quot;TSP&quot;, repos=&quot;http://cran.us.r-project.org&quot;)</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># %R if(!&quot;microbenchmark&quot; %in% rownames(installed.packages())) install.packages(&quot;microbenchmark&quot;, repos=&quot;http://cran.us.r-project.org&quot;)</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="co"># d = tsp[&quot;dist&quot;]</span></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Solve the TSP using <a
+href="https://www.rdocumentation.org/packages/TSP/versions/1.1-10/topics/solve_TSP"><code>solve_TSP</code></a>
+with the default heuristic. Note that 2-opt is steepest ascend hill
+climbing with exchanging two cities. <code>rep=100</code> means 100
+random restarts.</p>
+</div>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># %%R -i d -o tour</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co"># library(&quot;TSP&quot;)</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co"># tsp &lt;- TSP(d)</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># print(tsp)</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co"># tour &lt;- solve_TSP(tsp, rep = 100)</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="co"># print(tour)</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="co"># # R starts index with 1, but Python starts at 0</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="co"># tour &lt;- tour - 1L</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>tour <span class="op">=</span> random_tour(<span class="bu">len</span>(tsp[<span class="st">&quot;pos&quot;</span>]))</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>show_tsp(tsp, tour)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Tour length: 4.89
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa65a43260a84bf58730d26b5234fe6a/35f244c0f12b29a13979179e51c0452f569c6a97.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="44" data-scrolled="true">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>show_tsp(tsp, tour)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Tour length: 4.89
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa65a43260a84bf58730d26b5234fe6a/35f244c0f12b29a13979179e51c0452f569c6a97.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>How long does it take to solve the problem 100 times?</p>
+</div>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># %%R -i d</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># library(&quot;microbenchmark&quot;)</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="co"># microbenchmark(tsp &lt;- TSP(d))</span></span></code></pre></div>
+</div>
+<section id="steepest-ascend-hill-climbing-search-3-points"
+class="cell markdown">
+<h2>Steepest-ascend Hill Climbing Search [3 Points]</h2>
+<p>Calculate the objective function for all local moves (move each queen
+within its column) and always choose the best among all local moves.</p>
+</section>
+<div class="cell code" data-execution_count="46" data-scrolled="false">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Code goes here</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> steepest_hill_climb(tsp, start_tour):</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    cur <span class="op">=</span> start_tour[:] <span class="cf">if</span> <span class="bu">isinstance</span>(start_tour, <span class="bu">list</span>) <span class="cf">else</span> start_tour.tolist()</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    cur_len <span class="op">=</span> tour_length(tsp, cur)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    steps <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    improved <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="bu">len</span>(cur)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> improved:</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>        improved <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>        best_neighbor <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>        best_len <span class="op">=</span> cur_len</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(n <span class="op">-</span> <span class="dv">1</span>):</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i <span class="op">+</span> <span class="dv">1</span>, n):</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>                nb <span class="op">=</span> cur[:]</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>                nb[i], nb[j] <span class="op">=</span> nb[j], nb[i]</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>                nb_len <span class="op">=</span> tour_length(tsp, nb)</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> nb_len <span class="op">&lt;</span> best_len <span class="op">-</span> <span class="fl">1e-12</span>:</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>                    best_len <span class="op">=</span> nb_len</span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>                    best_neighbor <span class="op">=</span> nb</span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> best_neighbor <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>            cur <span class="op">=</span> best_neighbor</span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>            cur_len <span class="op">=</span> best_len</span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a>            steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>            improved <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> cur, cur_len, steps</span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a>start <span class="op">=</span> random_tour(<span class="bu">len</span>(tsp[<span class="st">&quot;pos&quot;</span>]))</span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a>best_tour, best_len, steps <span class="op">=</span> steepest_hill_climb(tsp, start)</span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Start length: </span><span class="sc">{</span>tour_length(tsp, start)<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Best length:  </span><span class="sc">{</span>best_len<span class="sc">:.4f}</span><span class="ss">, steps: </span><span class="sc">{</span>steps<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a>show_tsp(tsp, best_tour)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Start length: 4.6705
+Best length:  2.7636, steps: 5
+Tour length: 2.76
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa65a43260a84bf58730d26b5234fe6a/e019e6b1e8c08a1d00773011903ae1b999eaa210.png" /></p>
+</div>
+</div>
+<section
+id="steepest-ascend-hill-climbing-search-with-random-restarts-1-point"
+class="cell markdown">
+<h2>Steepest-ascend Hill Climbing Search with Random Restarts [1
+Point]</h2>
+<p>Steepest-ascend with random restarts.</p>
+</section>
+<div class="cell code" data-execution_count="47" data-scrolled="false">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Code goes here</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> steepest_hill_climb_random_restarts(tsp, restarts<span class="op">=</span><span class="dv">100</span>):</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    best_overall <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    best_len <span class="op">=</span> <span class="bu">float</span>(<span class="st">&quot;inf&quot;</span>)</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    best_steps <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="bu">len</span>(tsp[<span class="st">&quot;pos&quot;</span>])</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> r <span class="kw">in</span> <span class="bu">range</span>(restarts):</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>        start <span class="op">=</span> random_tour(n)</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>        tour, tl, steps <span class="op">=</span> steepest_hill_climb(tsp, start)</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> tl <span class="op">&lt;</span> best_len:</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>            best_overall, best_len, best_steps <span class="op">=</span> tour, tl, steps</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> best_overall, best_len, best_steps</span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>rr_tour, rr_len, rr_steps <span class="op">=</span> steepest_hill_climb_random_restarts(tsp, restarts<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;RR best length: </span><span class="sc">{</span>rr_len<span class="sc">:.4f}</span><span class="ss">, steps of last climb: </span><span class="sc">{</span>rr_steps<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a>show_tsp(tsp, rr_tour)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>RR best length: 2.7636, steps of last climb: 5
+Tour length: 2.76
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa65a43260a84bf58730d26b5234fe6a/bdad0577e1fcf7c57408c47ae1b2f61848d9b438.png" /></p>
+</div>
+</div>
+<section id="stochastic-hill-climbing-1-points" class="cell markdown">
+<h2>Stochastic Hill Climbing [1 Points]</h2>
+<p>Chooses randomly from among all uphill moves.</p>
+</section>
+<div class="cell code" data-execution_count="48">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Code goes here</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> stochastic_hill_climb(tsp, start_tour, max_iters<span class="op">=</span><span class="dv">10000</span>):</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    cur <span class="op">=</span> start_tour[:] <span class="cf">if</span> <span class="bu">isinstance</span>(start_tour, <span class="bu">list</span>) <span class="cf">else</span> start_tour.tolist()</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    cur_len <span class="op">=</span> tour_length(tsp, cur)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>    steps <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="bu">len</span>(cur)</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> steps <span class="op">&lt;</span> max_iters:</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>        better <span class="op">=</span> []</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(n <span class="op">-</span> <span class="dv">1</span>):</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i <span class="op">+</span> <span class="dv">1</span>, n):</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>                nb <span class="op">=</span> cur[:]</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>                nb[i], nb[j] <span class="op">=</span> nb[j], nb[i]</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>                nb_len <span class="op">=</span> tour_length(tsp, nb)</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> nb_len <span class="op">&lt;</span> cur_len <span class="op">-</span> <span class="fl">1e-12</span>:</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>                    better.append((nb, nb_len))</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> better:</span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>        nb, nb_len <span class="op">=</span> random.choice(better)</span>
+<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a>        cur, cur_len <span class="op">=</span> nb, nb_len</span>
+<span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a>        steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> cur, cur_len, steps</span>
+<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-27"><a href="#cb19-27" aria-hidden="true" tabindex="-1"></a>start <span class="op">=</span> random_tour(<span class="bu">len</span>(tsp[<span class="st">&quot;pos&quot;</span>]))</span>
+<span id="cb19-28"><a href="#cb19-28" aria-hidden="true" tabindex="-1"></a>st_tour, st_len, st_steps <span class="op">=</span> stochastic_hill_climb(tsp, start)</span>
+<span id="cb19-29"><a href="#cb19-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Stochastic best length: </span><span class="sc">{</span>st_len<span class="sc">:.4f}</span><span class="ss">, steps: </span><span class="sc">{</span>st_steps<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb19-30"><a href="#cb19-30" aria-hidden="true" tabindex="-1"></a>show_tsp(tsp, st_tour)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Stochastic best length: 2.7865, steps: 10
+Tour length: 2.79
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa65a43260a84bf58730d26b5234fe6a/37260fe5659574d05809104e8cdfa14045eb0d85.png" /></p>
+</div>
+</div>
+<section id="first-choice-hill-climbing-1-point" class="cell markdown">
+<h2>First-choice Hill Climbing [1 Point]</h2>
+<p>First-choice hill climbing is a type of stochastic hill climbing that
+generates one random local neighbor at a time and accept it if it has a
+better objective function value than the current state.</p>
+</section>
+<div class="cell code">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random, time</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> first_choice_hill_climb(tsp, start_tour, max_iters<span class="op">=</span><span class="dv">10000</span>, trials_per_iter<span class="op">=</span><span class="dv">2000</span>, seed<span class="op">=</span><span class="dv">42</span>):</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>    rng <span class="op">=</span> random.Random(seed)</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    cur <span class="op">=</span> start_tour[:] <span class="cf">if</span> <span class="bu">isinstance</span>(start_tour, <span class="bu">list</span>) <span class="cf">else</span> start_tour.tolist()</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    cur_len <span class="op">=</span> tour_length(tsp, cur)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>    steps <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="bu">len</span>(cur)</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(max_iters):</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>        improved <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>        <span class="co"># thử ngẫu nhiên một số cặp (i, j); gặp cải thiện là nhận ngay</span></span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> _t <span class="kw">in</span> <span class="bu">range</span>(trials_per_iter):</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>            i <span class="op">=</span> rng.randrange(<span class="dv">0</span>, n <span class="op">-</span> <span class="dv">1</span>)</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>            j <span class="op">=</span> rng.randrange(i <span class="op">+</span> <span class="dv">1</span>, n)</span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> i <span class="op">==</span> j:</span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>                <span class="cf">continue</span></span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>            nb <span class="op">=</span> cur[:]</span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>            nb[i], nb[j] <span class="op">=</span> nb[j], nb[i]</span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>            nb_len <span class="op">=</span> tour_length(tsp, nb)</span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> nb_len <span class="op">&lt;</span> cur_len <span class="op">-</span> <span class="fl">1e-12</span>:</span>
+<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a>                cur, cur_len <span class="op">=</span> nb, nb_len</span>
+<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a>                steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb21-25"><a href="#cb21-25" aria-hidden="true" tabindex="-1"></a>                improved <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb21-26"><a href="#cb21-26" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span></span>
+<span id="cb21-27"><a href="#cb21-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> improved:</span>
+<span id="cb21-28"><a href="#cb21-28" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb21-29"><a href="#cb21-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-30"><a href="#cb21-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> cur, cur_len, steps</span></code></pre></div>
+</div>
+<section id="simulated-annealing-2-points" class="cell markdown">
+<h2>Simulated Annealing [2 Points]</h2>
+</section>
+<div class="cell code">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math, random</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simulated_annealing(tsp, start_tour, max_iters<span class="op">=</span><span class="dv">20000</span>, T0<span class="op">=</span><span class="fl">1.0</span>, alpha<span class="op">=</span><span class="fl">0.995</span>, seed<span class="op">=</span><span class="dv">42</span>):</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    rng <span class="op">=</span> random.Random(seed)</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>    cur <span class="op">=</span> start_tour[:] <span class="cf">if</span> <span class="bu">isinstance</span>(start_tour, <span class="bu">list</span>) <span class="cf">else</span> start_tour.tolist()</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>    cur_len <span class="op">=</span> tour_length(tsp, cur)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>    best <span class="op">=</span> cur[:]</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>    best_len <span class="op">=</span> cur_len</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>    T <span class="op">=</span> <span class="bu">float</span>(T0)</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>    steps <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="bu">len</span>(cur)</span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(max_iters):</span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>        <span class="co"># chọn ngẫu nhiên một láng giềng bằng swap (i, j)</span></span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>        i <span class="op">=</span> rng.randrange(<span class="dv">0</span>, n <span class="op">-</span> <span class="dv">1</span>)</span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a>        j <span class="op">=</span> rng.randrange(i <span class="op">+</span> <span class="dv">1</span>, n)</span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a>        nb <span class="op">=</span> cur[:]</span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a>        nb[i], nb[j] <span class="op">=</span> nb[j], nb[i]</span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a>        nb_len <span class="op">=</span> tour_length(tsp, nb)</span>
+<span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a>        delta <span class="op">=</span> nb_len <span class="op">-</span> cur_len</span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Quy tắc chấp nhận của SA</span></span>
+<span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> delta <span class="op">&lt;</span> <span class="op">-</span><span class="fl">1e-12</span> <span class="kw">or</span> rng.random() <span class="op">&lt;</span> math.exp(<span class="op">-</span>delta <span class="op">/</span> <span class="bu">max</span>(T, <span class="fl">1e-12</span>)):</span>
+<span id="cb22-28"><a href="#cb22-28" aria-hidden="true" tabindex="-1"></a>            cur, cur_len <span class="op">=</span> nb, nb_len</span>
+<span id="cb22-29"><a href="#cb22-29" aria-hidden="true" tabindex="-1"></a>            steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-30"><a href="#cb22-30" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> cur_len <span class="op">&lt;</span> best_len <span class="op">-</span> <span class="fl">1e-12</span>:</span>
+<span id="cb22-31"><a href="#cb22-31" aria-hidden="true" tabindex="-1"></a>                best, best_len <span class="op">=</span> cur[:], cur_len</span>
+<span id="cb22-32"><a href="#cb22-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-33"><a href="#cb22-33" aria-hidden="true" tabindex="-1"></a>        <span class="co"># làm nguội</span></span>
+<span id="cb22-34"><a href="#cb22-34" aria-hidden="true" tabindex="-1"></a>        T <span class="op">*=</span> alpha</span>
+<span id="cb22-35"><a href="#cb22-35" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> T <span class="op">&lt;</span> <span class="fl">1e-8</span>:</span>
+<span id="cb22-36"><a href="#cb22-36" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb22-37"><a href="#cb22-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-38"><a href="#cb22-38" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> best, best_len, steps</span></code></pre></div>
+</div>
+<section id="compare-performance-2-points" class="cell markdown">
+<h2>Compare Performance [2 Points]</h2>
+<p>Use runtime, scalability (number of cities), and best objective
+function value to compare the algorithms on boards of different
+sizes.</p>
+<p>For timing you can use the <code>time</code> package.</p>
+</section>
+<div class="cell code" data-execution_count="51">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>t0 <span class="op">=</span> time.time()</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Do something&quot;</span>)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>t1 <span class="op">=</span> time.time()</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;This took: </span><span class="sc">{</span>(t1<span class="op">-</span>t0) <span class="op">*</span> <span class="fl">1e3</span><span class="sc">}</span><span class="ss"> milliseconds&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Do something
+This took: 0.0 milliseconds
+</code></pre>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> compare_performance(tsp, restarts<span class="op">=</span><span class="dv">50</span>, seed<span class="op">=</span><span class="dv">42</span>, start_tour<span class="op">=</span><span class="va">None</span>, verbose<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>    rng <span class="op">=</span> random.Random(seed)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="bu">len</span>(tsp[<span class="st">&quot;pos&quot;</span>])</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Khởi tạo tour ban đầu chung cho các thuật toán single-start</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> start_tour <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>        start_tour <span class="op">=</span> random_tour(n)</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>    results <span class="op">=</span> {}</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 1) Steepest-Ascent HC (single-start)</span></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>    t0 <span class="op">=</span> time.time()</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>    st_tour, st_len, st_steps <span class="op">=</span> steepest_hill_climb(tsp, start_tour)</span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>    results[<span class="st">&quot;Steepest-ascend Hill Climbing Search&quot;</span>] <span class="op">=</span> {</span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;runtime&quot;</span>: time.time() <span class="op">-</span> t0, <span class="st">&quot;length&quot;</span>: st_len, <span class="st">&quot;steps&quot;</span>: st_steps</span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 2) Steepest-Ascent HC + Random Restarts</span></span>
+<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a>    t0 <span class="op">=</span> time.time()</span>
+<span id="cb25-23"><a href="#cb25-23" aria-hidden="true" tabindex="-1"></a>    rr_tour, rr_len, rr_steps <span class="op">=</span> steepest_hill_climb_random_restarts(tsp, restarts<span class="op">=</span>restarts)</span>
+<span id="cb25-24"><a href="#cb25-24" aria-hidden="true" tabindex="-1"></a>    results[<span class="st">&quot;Steepest-ascend Hill Climbing Search with Random Restarts&quot;</span>] <span class="op">=</span> {</span>
+<span id="cb25-25"><a href="#cb25-25" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;runtime&quot;</span>: time.time() <span class="op">-</span> t0, <span class="st">&quot;length&quot;</span>: rr_len, <span class="st">&quot;steps&quot;</span>: rr_steps, <span class="st">&quot;restarts&quot;</span>: restarts</span>
+<span id="cb25-26"><a href="#cb25-26" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb25-27"><a href="#cb25-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-28"><a href="#cb25-28" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 3) Stochastic HC (single-start)</span></span>
+<span id="cb25-29"><a href="#cb25-29" aria-hidden="true" tabindex="-1"></a>    t0 <span class="op">=</span> time.time()</span>
+<span id="cb25-30"><a href="#cb25-30" aria-hidden="true" tabindex="-1"></a>    sto_tour, sto_len, sto_steps <span class="op">=</span> stochastic_hill_climb(tsp, start_tour, max_iters<span class="op">=</span><span class="dv">10000</span>)</span>
+<span id="cb25-31"><a href="#cb25-31" aria-hidden="true" tabindex="-1"></a>    results[<span class="st">&quot;Stochastic Hill Climbing&quot;</span>] <span class="op">=</span> {</span>
+<span id="cb25-32"><a href="#cb25-32" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;runtime&quot;</span>: time.time() <span class="op">-</span> t0, <span class="st">&quot;length&quot;</span>: sto_len, <span class="st">&quot;steps&quot;</span>: sto_steps</span>
+<span id="cb25-33"><a href="#cb25-33" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb25-34"><a href="#cb25-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-35"><a href="#cb25-35" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 4) First-Choice HC (single-start)</span></span>
+<span id="cb25-36"><a href="#cb25-36" aria-hidden="true" tabindex="-1"></a>    t0 <span class="op">=</span> time.time()</span>
+<span id="cb25-37"><a href="#cb25-37" aria-hidden="true" tabindex="-1"></a>    fc_tour, fc_len, fc_steps <span class="op">=</span> first_choice_hill_climb(</span>
+<span id="cb25-38"><a href="#cb25-38" aria-hidden="true" tabindex="-1"></a>        tsp, start_tour, max_iters<span class="op">=</span><span class="dv">10000</span>, trials_per_iter<span class="op">=</span><span class="dv">2000</span>, seed<span class="op">=</span>seed</span>
+<span id="cb25-39"><a href="#cb25-39" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb25-40"><a href="#cb25-40" aria-hidden="true" tabindex="-1"></a>    results[<span class="st">&quot;First-choice Hill Climbing&quot;</span>] <span class="op">=</span> {</span>
+<span id="cb25-41"><a href="#cb25-41" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;runtime&quot;</span>: time.time() <span class="op">-</span> t0, <span class="st">&quot;length&quot;</span>: fc_len, <span class="st">&quot;steps&quot;</span>: fc_steps</span>
+<span id="cb25-42"><a href="#cb25-42" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb25-43"><a href="#cb25-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-44"><a href="#cb25-44" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 5) Simulated Annealing (single-start)</span></span>
+<span id="cb25-45"><a href="#cb25-45" aria-hidden="true" tabindex="-1"></a>    t0 <span class="op">=</span> time.time()</span>
+<span id="cb25-46"><a href="#cb25-46" aria-hidden="true" tabindex="-1"></a>    sa_tour, sa_len, sa_steps <span class="op">=</span> simulated_annealing(</span>
+<span id="cb25-47"><a href="#cb25-47" aria-hidden="true" tabindex="-1"></a>        tsp, start_tour, max_iters<span class="op">=</span><span class="dv">20000</span>, T0<span class="op">=</span><span class="fl">1.0</span>, alpha<span class="op">=</span><span class="fl">0.995</span>, seed<span class="op">=</span>seed</span>
+<span id="cb25-48"><a href="#cb25-48" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb25-49"><a href="#cb25-49" aria-hidden="true" tabindex="-1"></a>    results[<span class="st">&quot;Simulated Annealing&quot;</span>] <span class="op">=</span> {</span>
+<span id="cb25-50"><a href="#cb25-50" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;runtime&quot;</span>: time.time() <span class="op">-</span> t0, <span class="st">&quot;length&quot;</span>: sa_len, <span class="st">&quot;steps&quot;</span>: sa_steps</span>
+<span id="cb25-51"><a href="#cb25-51" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb25-52"><a href="#cb25-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-53"><a href="#cb25-53" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> verbose:</span>
+<span id="cb25-54"><a href="#cb25-54" aria-hidden="true" tabindex="-1"></a>        <span class="co"># In bảng gọn gàng để copy vào báo cáo</span></span>
+<span id="cb25-55"><a href="#cb25-55" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">=== TSP – Compare Performance (5 thuật toán) ===&quot;</span>)</span>
+<span id="cb25-56"><a href="#cb25-56" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;(n = </span><span class="sc">{</span>n<span class="sc">}</span><span class="ss">, cùng start_tour cho các thuật toán single-start; RR = </span><span class="sc">{</span>restarts<span class="sc">}</span><span class="ss"> restarts)</span><span class="ch">\n</span><span class="ss">&quot;</span>)</span>
+<span id="cb25-57"><a href="#cb25-57" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span><span class="st">&#39;Algorithm&#39;</span><span class="sc">:55s}</span><span class="ss">  </span><span class="sc">{</span><span class="st">&#39;Length&#39;</span><span class="sc">:&gt;12s}</span><span class="ss">  </span><span class="sc">{</span><span class="st">&#39;Runtime(s)&#39;</span><span class="sc">:&gt;10s}</span><span class="ss">  </span><span class="sc">{</span><span class="st">&#39;Steps&#39;</span><span class="sc">:&gt;8s}</span><span class="ss">&quot;</span>)</span>
+<span id="cb25-58"><a href="#cb25-58" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;-&quot;</span><span class="op">*</span><span class="dv">90</span>)</span>
+<span id="cb25-59"><a href="#cb25-59" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> k <span class="kw">in</span> [</span>
+<span id="cb25-60"><a href="#cb25-60" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;Steepest-ascend Hill Climbing Search&quot;</span>,</span>
+<span id="cb25-61"><a href="#cb25-61" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;Steepest-ascend Hill Climbing Search with Random Restarts&quot;</span>,</span>
+<span id="cb25-62"><a href="#cb25-62" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;Stochastic Hill Climbing&quot;</span>,</span>
+<span id="cb25-63"><a href="#cb25-63" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;First-choice Hill Climbing&quot;</span>,</span>
+<span id="cb25-64"><a href="#cb25-64" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;Simulated Annealing&quot;</span>,</span>
+<span id="cb25-65"><a href="#cb25-65" aria-hidden="true" tabindex="-1"></a>        ]:</span>
+<span id="cb25-66"><a href="#cb25-66" aria-hidden="true" tabindex="-1"></a>            info <span class="op">=</span> results[k]</span>
+<span id="cb25-67"><a href="#cb25-67" aria-hidden="true" tabindex="-1"></a>            length <span class="op">=</span> info[<span class="st">&quot;length&quot;</span>]</span>
+<span id="cb25-68"><a href="#cb25-68" aria-hidden="true" tabindex="-1"></a>            runtime <span class="op">=</span> info[<span class="st">&quot;runtime&quot;</span>]</span>
+<span id="cb25-69"><a href="#cb25-69" aria-hidden="true" tabindex="-1"></a>            steps <span class="op">=</span> info.get(<span class="st">&quot;steps&quot;</span>, <span class="dv">0</span>)</span>
+<span id="cb25-70"><a href="#cb25-70" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>k<span class="sc">:55s}</span><span class="ss">  </span><span class="sc">{</span>length<span class="sc">:12.6f}</span><span class="ss">  </span><span class="sc">{</span>runtime<span class="sc">:10.4f}</span><span class="ss">  </span><span class="sc">{</span>steps<span class="sc">:8d}</span><span class="ss">&quot;</span>)</span>
+<span id="cb25-71"><a href="#cb25-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-72"><a href="#cb25-72" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> results</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="53">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># coords: np.ndarray shape (n,2) – dữ liệu của anh</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="co"># tạo 50 thành phố ngẫu nhiên trong [0,1]x[0,1]</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>np.random.seed(<span class="dv">0</span>)</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>coords <span class="op">=</span> np.random.rand(<span class="dv">50</span>, <span class="dv">2</span>)</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> compare_performance(tsp, restarts<span class="op">=</span><span class="dv">8</span>, seed<span class="op">=</span><span class="dv">123</span>, start_tour<span class="op">=</span>random_tour(<span class="bu">len</span>(tsp[<span class="st">&quot;pos&quot;</span>])), verbose<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>results  <span class="co"># lấy dict {algo: {runtime, length}} giống form aggregate hiện tại</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+=== TSP – Compare Performance (5 thuật toán) ===
+(n = 10, cùng start_tour cho các thuật toán single-start; RR = 8 restarts)
+
+Algorithm                                                      Length  Runtime(s)     Steps
+------------------------------------------------------------------------------------------
+Steepest-ascend Hill Climbing Search                         2.805585      0.0009         8
+Steepest-ascend Hill Climbing Search with Random Restarts      2.763574      0.0030         5
+Stochastic Hill Climbing                                     2.805585      0.0010        11
+First-choice Hill Climbing                                   2.763574      0.0050         8
+Simulated Annealing                                          2.763574      0.0120       282
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="53">
+<pre><code>{&#39;Steepest-ascend Hill Climbing Search&#39;: {&#39;runtime&#39;: 0.0009400844573974609,
+  &#39;length&#39;: np.float64(2.805585305709425),
+  &#39;steps&#39;: 8},
+ &#39;Steepest-ascend Hill Climbing Search with Random Restarts&#39;: {&#39;runtime&#39;: 0.003037691116333008,
+  &#39;length&#39;: np.float64(2.763573577757701),
+  &#39;steps&#39;: 5,
+  &#39;restarts&#39;: 8},
+ &#39;Stochastic Hill Climbing&#39;: {&#39;runtime&#39;: 0.0009999275207519531,
+  &#39;length&#39;: np.float64(2.805585305709425),
+  &#39;steps&#39;: 11},
+ &#39;First-choice Hill Climbing&#39;: {&#39;runtime&#39;: 0.00500035285949707,
+  &#39;length&#39;: np.float64(2.7635735777577013),
+  &#39;steps&#39;: 8},
+ &#39;Simulated Annealing&#39;: {&#39;runtime&#39;: 0.01200103759765625,
+  &#39;length&#39;: np.float64(2.763573577757701),
+  &#39;steps&#39;: 282}}</code></pre>
+</div>
+</div>
+<section id="bonus-genetic-algorithm-1-point" class="cell markdown">
+<h2>Bonus: Genetic Algorithm [+1 Point]</h2>
+</section>
+<div class="cell code" data-execution_count="54">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Dùng đúng cấu trúc tsp hiện tại của anh:</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="co"># tsp = {&quot;pos&quot;: np.array([...])}  # random_tour, tour_length, show_tsp đã có sẵn</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>start <span class="op">=</span> random_tour(<span class="bu">len</span>(tsp[<span class="st">&quot;pos&quot;</span>]))                 <span class="co"># dùng chung cho single-start</span></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>_ <span class="op">=</span> compare_performance(tsp, restarts<span class="op">=</span><span class="dv">100</span>, seed<span class="op">=</span><span class="dv">123</span>, start_tour<span class="op">=</span>start, verbose<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Ví dụ chạy từng thuật toán:</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>fc_tour, fc_len, fc_steps <span class="op">=</span> first_choice_hill_climb(tsp, start)</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>sa_tour, sa_len, sa_steps <span class="op">=</span> simulated_annealing(tsp, start)</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(fc_len, sa_len)</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a><span class="co"># show_tsp(tsp, fc_tour)</span></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a><span class="co"># show_tsp(tsp, sa_tour)</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+=== TSP – Compare Performance (5 thuật toán) ===
+(n = 10, cùng start_tour cho các thuật toán single-start; RR = 100 restarts)
+
+Algorithm                                                      Length  Runtime(s)     Steps
+------------------------------------------------------------------------------------------
+Steepest-ascend Hill Climbing Search                         2.805585      0.0010         7
+Steepest-ascend Hill Climbing Search with Random Restarts      2.763574      0.0670         5
+Stochastic Hill Climbing                                     2.763574      0.0010        12
+First-choice Hill Climbing                                   2.881089      0.0060        14
+Simulated Annealing                                          2.881089      0.0110       286
+2.8810894251962424 2.763573577757701
+</code></pre>
+</div>
+</div>
+</body>
+</html>
